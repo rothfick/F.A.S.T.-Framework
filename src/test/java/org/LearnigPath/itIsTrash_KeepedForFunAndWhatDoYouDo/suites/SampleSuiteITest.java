@@ -1,4 +1,4 @@
-package org.LearnigPath.suites;
+package org.LearnigPath.itIsTrash_KeepedForFunAndWhatDoYouDo.suites;
 
 import com.github.jsdevel.testng.selenium.AbstractSuite;
 import com.github.jsdevel.testng.selenium.annotations.driverconfig.UserAgent;
@@ -7,8 +7,8 @@ import com.github.jsdevel.testng.selenium.annotations.screensizes.Phone;
 import com.github.jsdevel.testng.selenium.config.Config;
 import com.github.jsdevel.testng.selenium.exceptions.PageInitializationException;
 import com.github.jsdevel.testng.selenium.exceptions.PageInstantiationException;
-import org.LearnigPath.pages.GoogleSearchResultsPage;
-import org.LearnigPath.pages.SamplePageFactory;
+import org.LearnigPath.itIsTrash_KeepedForFunAndWhatDoYouDo.pages.GoogleSearchResultsPage;
+import org.LearnigPath.itIsTrash_KeepedForFunAndWhatDoYouDo.pages.SamplePageFactory;
 import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.assertNotNull;
 import org.testng.annotations.Test;

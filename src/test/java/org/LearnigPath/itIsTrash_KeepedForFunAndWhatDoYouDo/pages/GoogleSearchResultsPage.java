@@ -1,4 +1,4 @@
-package org.LearnigPath.pages;
+package org.LearnigPath.itIsTrash_KeepedForFunAndWhatDoYouDo.pages;
 
 import com.github.jsdevel.testng.selenium.AbstractPage;
 import java.net.URL;
