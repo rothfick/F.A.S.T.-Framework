@@ -1,21 +1,22 @@
 package base;
 
+import helpers.AppHelper;
 import io.qameta.allure.Step;
+import lombok.NonNull;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import utils.BrowserManager;
-import utils.DriverManager;
-import utils.SeleniumElementsHelper;
+import helpers.SeleniumElementsHelper;
 import utils.ThreadLogger;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Properties;
+import java.lang.reflect.Field;
+import java.util.*;
 
 public class TestBase {
 
@@ -26,13 +27,16 @@ public class TestBase {
     private static final int WEB_DRIVER_TIMEOUT = 75;
     protected boolean disableWebSecurity = false;
 
-    private ThreadLogger LOG = ThreadLogger.getLogger(TestBase.class);
+    private static final Logger LOG = ThreadLogger.getLogger(TestBase.class);
 
     private List<Boolean> testStepsResults = new ArrayList<>();
-    private int testStepCounter = 0;
+    private int testStepCounter;
+
+    private Map<Class, Object> allHelpers = new HashMap<>();
 
     @BeforeMethod(alwaysRun = true)
     protected void setupBeforeTest() throws IOException {
+        testStepCounter = 0; // Reset step counter before each test method
         LOG.info("Setup before the test has just started.");
         setupDriver();
         setupHelpers();
@@ -42,29 +46,39 @@ public class TestBase {
     @AfterMethod(alwaysRun = true)
     protected void cleanUpAfterTest(ITestResult testResult) {
         LOG.info("Cleaning up after test.");
-        testDone("TEST DONE", false); // Zamyka ostatni test
-        DriverManager.closeDriver();
+        testDone("TEST DONE", !testResult.isSuccess()); // Zamyka ostatni test
+        if (driver != null) {
+            driver.quit();
+        }
         LOG.info("Cleanup done.");
     }
 
     protected void setupDriver() throws IOException {
         BrowserManager browserManager = new BrowserManager();
         driver = browserManager.getDriver(getBrowserFromProperties());
-        driver.manage().timeouts().pageLoadTimeout(WEB_DRIVER_TIMEOUT, java.util.concurrent.TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+        configureWebDriver(driver);
         driverWait = new WebDriverWait(driver, WEB_DRIVER_TIMEOUT);
     }
 
-    private String getBrowserFromProperties() throws IOException {
-        Properties properties = new Properties();
-        InputStream inputStream = getClass().getClassLoader().getResourceAsStream("applicationConfig.properties");
-        properties.load(inputStream);
-        return properties.getProperty("browser", "chrome");
+    protected void configureWebDriver(WebDriver driver) {
+        driver.manage().timeouts().pageLoadTimeout(WEB_DRIVER_TIMEOUT, java.util.concurrent.TimeUnit.SECONDS);
+        driver.manage().window().maximize();
     }
 
-    private void setupHelpers() {
-        seleniumElementsHelper = new SeleniumElementsHelper(driver, driverWait);
-        // Inicjalizacja innych helperów tutaj
+    private String getBrowserFromProperties() {
+        final String defaultBrowser = "chrome";
+        Properties properties = new Properties();
+        try (InputStream inputStream = getClass().getClassLoader().getResourceAsStream("applicationConfig.properties")) {
+            if (inputStream == null) {
+                LOG.warn("Property file 'applicationConfig.properties' not found in the classpath; using default browser: " + defaultBrowser);
+                return defaultBrowser;
+            }
+            properties.load(inputStream);
+        } catch (IOException e) {
+            LOG.error("Failed to load 'applicationConfig.properties'; using default browser: " + defaultBrowser, e);
+            return defaultBrowser;
+        }
+        return properties.getProperty("browser", defaultBrowser);
     }
 
     @Step("{message}")
@@ -78,14 +92,39 @@ public class TestBase {
         testStep(message, true);
     }
 
-    private void testDone(String message, boolean result) {
+    protected void testDone(String message, boolean result) {
         if (!testStepsResults.isEmpty()) {
-            LOG.info("[TEST RESULT]: " + (result ? "PASSED" : "FAILED"));
+            LOG.info("[TEST RESULT]: " + message + " - " + (result ? "PASSED" : "FAILED"));
             testStepsResults.clear();
         }
     }
 
     protected void testDone(String message) {
         testDone(message, true);
+    }
+
+    private void setupHelpers() {
+        this.seleniumElementsHelper = new SeleniumElementsHelper(driver, driverWait);
+        initializeHelpers(Arrays.asList(seleniumElementsHelper));
+    }
+
+    private void initializeHelpers(List<Object> helpers) {
+        for (Object helper : helpers) {
+            try {
+                allHelpers.putAll(AppHelper.initAppHelpers((SeleniumElementsHelper) helper));
+                injectHelpersInto(helper);
+            } catch (Exception e) {
+                LOG.error("Error initializing helpers: " + e.getMessage(), e);
+            }
+        }
+    }
+
+    private void injectHelpersInto(Object target) throws IllegalAccessException {
+        for (Field field : target.getClass().getDeclaredFields()) {
+            if (allHelpers.containsKey(field.getType())) {
+                field.setAccessible(true);
+                field.set(target, allHelpers.get(field.getType()));
+            }
+        }
     }
 }

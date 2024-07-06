@@ -1,11 +1,15 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="MyArtifactSuite"
-       thread-count="3"
-       parallel="methods">
-  <test name="AllSuites">
-    <packages>
-      <package name=".*"/>
-    </packages>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoQATestSuite" verbose="1">
+
+
+  <!-- Define test and include all methods from the specified class -->
+  <test name="DemoQATests">
+    <classes>
+      <class name="tests.UI.DemoQA">
+      </class>
+    </classes>
   </test>
+
+  <!-- You can define multiple <test> tags if you have different groups of tests -->
 </suite>
