@@ -78,6 +78,12 @@ public class SeleniumElementsHelper {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
     }
 
+    public void scrollToElementAndClick(By locator) {
+        WebElement element = findElement(locator);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element);
+        clickSafely(locator);
+    }
+
     public void highlightElement(By locator) {
         WebElement element = findElement(locator);
         String originalStyle = element.getAttribute("style");
@@ -293,5 +299,14 @@ public class SeleniumElementsHelper {
 
     public void waitForElementToBeVisible(By locator) {
         fluentWait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+
+    public void clickSafely(By locator) {
+        WebElement element = fluentWait.until(ExpectedConditions.elementToBeClickable(locator));
+        try {
+            element.click();
+        } catch (WebDriverException e) {
+            throw new WebDriverException("Error clicking on element: " + locator, e);
+        }
     }
 }
