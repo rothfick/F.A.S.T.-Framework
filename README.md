@@ -43,8 +43,7 @@ Modify the `src/main/resources/config.properties` file to update base URLs, cred
 
 ### Adding Tests
 1. **Frontend Tests**: Place your Selenium tests under `src/test/java/frontend`.
-2. **Backend Tests**: Use TestNG for backend-specific tests, located under `src/test/java/backend`.
-3. **API Tests**: RestAssured tests should be placed under `src/test/java/api`.
+2. **API Tests**: RestAssured tests should be placed under `src/test/java/api`.
 
 ## Test Management
 - **Page Objects**: Utilize the Page Object Model (POM) for maintaining web interactions.
