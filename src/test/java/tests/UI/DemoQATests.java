@@ -233,113 +233,113 @@ public class DemoQATests extends TestBase {
         testDone("Multi-section form handling test completed");
     }
 
-@Test
-@Description("Test handling of interactive table")
-@Epic("Advanced UI Tests")
-@Feature("Interactive Table")
-public void testInteractiveTableFunctionality() {
-    testStep("Navigating to home page");
-    driver.get(HOME_URL.get());
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Clicking on 'Elements' tile");
-    seleniumElementsHelper.clickSafely(By.xpath(ELEMENTS_TILE_XPATH.get()));
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Clicking on 'Web Tables' section");
-    seleniumElementsHelper.clickSafely(By.xpath(WEB_TABLES_SECTION_XPATH.get()));
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Adding a new record to the table");
-    seleniumElementsHelper.clickSafely(By.id(ADD_NEW_RECORD_BUTTON_ID.get()));
-    seleniumElementsHelper.sendKeys(By.id(FIRST_NAME_ID.get()), "Alice");
-    seleniumElementsHelper.sendKeys(By.id(LAST_NAME_ID.get()), "Johnson");
-    seleniumElementsHelper.sendKeys(By.id(USER_EMAIL_ID.get()), "alice.johnson@example.com");
-    seleniumElementsHelper.sendKeys(By.id(AGE_ID.get()), "30");
-    seleniumElementsHelper.sendKeys(By.id(SALARY_ID.get()), "50000");
-    seleniumElementsHelper.sendKeys(By.id(DEPARTMENT_ID.get()), "Quality Assurance");
-    seleniumElementsHelper.clickSafely(By.id(BUTTON_SUBMIT_TABLE_ID.get()));
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Verifying record addition");
-    assert seleniumElementsHelper.isElementPresent(By.xpath("//div[contains(text(), 'Alice')]")) : "Record was not added";
-    testDone("Interactive table functionality test completed");
-}
+    @Test
+    @Description("Test handling of interactive table")
+    @Epic("Advanced UI Tests")
+    @Feature("Interactive Table")
+    public void testInteractiveTableFunctionality() {
+        testStep("Navigating to home page");
+        driver.get(HOME_URL.get());
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Clicking on 'Elements' tile");
+        seleniumElementsHelper.clickSafely(By.xpath(ELEMENTS_TILE_XPATH.get()));
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Clicking on 'Web Tables' section");
+        seleniumElementsHelper.clickSafely(By.xpath(WEB_TABLES_SECTION_XPATH.get()));
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Adding a new record to the table");
+        seleniumElementsHelper.clickSafely(By.id(ADD_NEW_RECORD_BUTTON_ID.get()));
+        seleniumElementsHelper.sendKeys(By.id(FIRST_NAME_ID.get()), "Alice");
+        seleniumElementsHelper.sendKeys(By.id(LAST_NAME_ID.get()), "Johnson");
+        seleniumElementsHelper.sendKeys(By.id(USER_EMAIL_ID.get()), "alice.johnson@example.com");
+        seleniumElementsHelper.sendKeys(By.id(AGE_ID.get()), "30");
+        seleniumElementsHelper.sendKeys(By.id(SALARY_ID.get()), "50000");
+        seleniumElementsHelper.sendKeys(By.id(DEPARTMENT_ID.get()), "Quality Assurance");
+        seleniumElementsHelper.clickSafely(By.id(BUTTON_SUBMIT_TABLE_ID.get()));
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Verifying record addition");
+        assert seleniumElementsHelper.isElementPresent(By.xpath("//div[contains(text(), 'Alice')]")) : "Record was not added";
+        testDone("Interactive table functionality test completed");
+    }
 
-@Test
-@Description("Test handling of dynamic loads")
-@Epic("Advanced UI Tests")
-@Feature("Dynamic Loads")
-public void testDynamicLoadsHandling() {
-    testStep("Navigating to home page");
-    driver.get(HOME_URL.get());
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Clicking on 'Elements' tile");
-    seleniumElementsHelper.clickSafely(By.xpath(ELEMENTS_TILE_XPATH.get()));
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Clicking on 'Dynamic Properties' section");
-    seleniumElementsHelper.scrollToElementAndClick(By.xpath(DYNAMICPROPERTIES_SECTION_XPATH.get()));
+    @Test
+    @Description("Test handling of dynamic loads")
+    @Epic("Advanced UI Tests")
+    @Feature("Dynamic Loads")
+    public void testDynamicLoadsHandling() {
+        testStep("Navigating to home page");
+        driver.get(HOME_URL.get());
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Clicking on 'Elements' tile");
+        seleniumElementsHelper.clickSafely(By.xpath(ELEMENTS_TILE_XPATH.get()));
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Clicking on 'Dynamic Properties' section");
+        seleniumElementsHelper.scrollToElementAndClick(By.xpath(DYNAMICPROPERTIES_SECTION_XPATH.get()));
 //    seleniumElementsHelper.click(By.xpath("//span[text()='Dynamic Properties']"));
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Waiting for dynamically loaded button to appear");
-    seleniumElementsHelper.waitForElementToBeClickable(By.id("visibleAfter"));
-    testStep("Clicking on the dynamically loaded button");
-    seleniumElementsHelper.clickSafely(By.id(VISIBLE_AFTER.get()));
-    testStep("Verifying button click");
-    assert seleniumElementsHelper.isElementPresent(By.id(VISIBLE_AFTER.get())) : "Dynamically loaded button was not clickable";
-    testDone("Dynamic loads handling test completed");
-}
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Waiting for dynamically loaded button to appear");
+        seleniumElementsHelper.waitForElementToBeClickable(By.id("visibleAfter"));
+        testStep("Clicking on the dynamically loaded button");
+        seleniumElementsHelper.clickSafely(By.id(VISIBLE_AFTER.get()));
+        testStep("Verifying button click");
+        assert seleniumElementsHelper.isElementPresent(By.id(VISIBLE_AFTER.get())) : "Dynamically loaded button was not clickable";
+        testDone("Dynamic loads handling test completed");
+    }
 
-@Test
-@Description("Test advanced JavaScript manipulations")
-@Epic("Advanced UI Tests")
-@Feature("JavaScript Manipulation")
-public void testAdvancedJavaScriptManipulations() {
-    testStep("Navigating to home page");
-    driver.get(HOME_URL.get());
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Clicking on 'Elements' tile");
-    seleniumElementsHelper.clickSafely(By.xpath(ELEMENTS_TILE_XPATH.get()));
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Clicking on 'Buttons' section");
-    seleniumElementsHelper.clickSafely(By.xpath(BUTTONS_SECTION_XPATH.get()));
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Using JavaScript to perform double click");
-    WebElement button = driver.findElement(By.id("doubleClickBtn"));
-    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", button);
-    ((JavascriptExecutor) driver).executeScript("arguments[0].dispatchEvent(new MouseEvent('dblclick', {bubbles:true, cancelable:true, view:window}));", button);
-    testStep("Verifying JavaScript manipulation");
-    assert seleniumElementsHelper.isElementPresent(By.id("doubleClickMessage")) : "JavaScript manipulation did not trigger expected action";
-    testDone("Advanced JavaScript manipulations test completed");
-}
+    @Test
+    @Description("Test advanced JavaScript manipulations")
+    @Epic("Advanced UI Tests")
+    @Feature("JavaScript Manipulation")
+    public void testAdvancedJavaScriptManipulations() {
+        testStep("Navigating to home page");
+        driver.get(HOME_URL.get());
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Clicking on 'Elements' tile");
+        seleniumElementsHelper.clickSafely(By.xpath(ELEMENTS_TILE_XPATH.get()));
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Clicking on 'Buttons' section");
+        seleniumElementsHelper.clickSafely(By.xpath(BUTTONS_SECTION_XPATH.get()));
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Using JavaScript to perform double click");
+        WebElement button = driver.findElement(By.id("doubleClickBtn"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", button);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].dispatchEvent(new MouseEvent('dblclick', {bubbles:true, cancelable:true, view:window}));", button);
+        testStep("Verifying JavaScript manipulation");
+        assert seleniumElementsHelper.isElementPresent(By.id("doubleClickMessage")) : "JavaScript manipulation did not trigger expected action";
+        testDone("Advanced JavaScript manipulations test completed");
+    }
 
-@Test
-@Description("Test network error handling and recovery")
-@Epic("Complex UI Tests")
-@Feature("Network Errors")
-public void testNetworkErrorHandling() {
-    testStep("Navigating to home page");
-    driver.get(HOME_URL.get());
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Simulating network error");
-    seleniumElementsHelper.executeJavaScript("window.stop();");
-    testStep("Attempting to recover from network error");
-    seleniumElementsHelper.refreshPageByJS();
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Verifying page recovery");
-    assert seleniumElementsHelper.isElementPresent(By.className("home-banner")) : "Page did not recover from network error correctly";
-    testDone("Network error handling test completed");
-}
+    @Test
+    @Description("Test network error handling and recovery")
+    @Epic("Complex UI Tests")
+    @Feature("Network Errors")
+    public void testNetworkErrorHandling() {
+        testStep("Navigating to home page");
+        driver.get(HOME_URL.get());
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Simulating network error");
+        seleniumElementsHelper.executeJavaScript("window.stop();");
+        testStep("Attempting to recover from network error");
+        seleniumElementsHelper.refreshPageByJS();
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Verifying page recovery");
+        assert seleniumElementsHelper.isElementPresent(By.className("home-banner")) : "Page did not recover from network error correctly";
+        testDone("Network error handling test completed");
+    }
 
-@Test
-@Description("Test handling of browser sessions and cookies")
-@Epic("Complex UI Tests")
-@Feature("Session and Cookies")
-public void testSessionAndCookieHandling() {
-    testStep("Navigating to home page");
-    driver.get(HOME_URL.get());
-    seleniumElementsHelper.waitForPageLoad();
-    testStep("Setting a session cookie");
-    seleniumElementsHelper.executeJavaScript("document.cookie = 'sessionTest=123456; path=/';");
-    testStep("Verifying the cookie is set correctly");
-    String cookies = (String) seleniumElementsHelper.executeScript("return document.cookie;");
-    assert cookies.contains("sessionTest=123456") : "Session cookie was not set correctly";
-    testDone("Session and cookie handling test completed");
-}
+    @Test
+    @Description("Test handling of browser sessions and cookies")
+    @Epic("Complex UI Tests")
+    @Feature("Session and Cookies")
+    public void testSessionAndCookieHandling() {
+        testStep("Navigating to home page");
+        driver.get(HOME_URL.get());
+        seleniumElementsHelper.waitForPageLoad();
+        testStep("Setting a session cookie");
+        seleniumElementsHelper.executeJavaScript("document.cookie = 'sessionTest=123456; path=/';");
+        testStep("Verifying the cookie is set correctly");
+        String cookies = (String) seleniumElementsHelper.executeScript("return document.cookie;");
+        assert cookies.contains("sessionTest=123456") : "Session cookie was not set correctly";
+        testDone("Session and cookie handling test completed");
+    }
 }

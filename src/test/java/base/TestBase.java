@@ -25,16 +25,13 @@ import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.util.*;
 
-import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
-
-public class TestBase extends TestWithHelpers{
+public class TestBase extends TestWithHelpers {
 
     protected WebDriver driver;
     protected WebDriverWait driverWait;
     protected SeleniumElementsHelper seleniumElementsHelper;
 
     private static final int WEB_DRIVER_TIMEOUT = 150;
-    protected boolean disableWebSecurity = false;
 
     private static final Logger LOG = ThreadLogger.getLogger(TestBase.class);
 
@@ -60,7 +57,7 @@ public class TestBase extends TestWithHelpers{
             LOG.info("RestAssured setup completed.");
         } else if (wireMockEnabled) {
             setupWireMock();
-        }else {
+        } else {
             setupDriver(DriverManager.DriverType.LOCAL);
             setupHelpers();
             LOG.info("Selenium UI setup completed.");
@@ -82,7 +79,6 @@ public class TestBase extends TestWithHelpers{
     protected void setupRestAssured() {
         RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
         requestSpec = RestAssured.given().contentType("application/json");
-        // Tutaj można dodać więcej konfiguracji
     }
 
     protected void setupWireMock() {
@@ -149,25 +145,26 @@ public class TestBase extends TestWithHelpers{
         testDone(message, true);
     }
 
-    private void setupHelpers(){
+    private void setupHelpers() {
         this.seleniumElementsHelper = new SeleniumElementsHelper(driver, driverWait);
-        try{
+        try {
             allHelpers.putAll(AppHelper.initAppHelpers(seleniumElementsHelper));
             propertyHelper.loadProperties();
             injectHelpers(this, allHelpers);
 
-            for(Object helper : allHelpers.values()){
+            for (Object helper : allHelpers.values()) {
                 injectHelpers(helper, allHelpers);
-            }}catch (Exception ex){
+            }
+        } catch (Exception ex) {
             LOG.error(ex.getMessage());
         }
     }
 
     private void injectHelpers(@NonNull Object target, @NonNull Map<Class, Object> helperMap) throws IllegalAccessException {
         Class clazz = target.getClass();
-        while(clazz!=null){
-            for(Field field : clazz.getDeclaredFields()){
-                if(helperMap.containsKey(field.getType())){
+        while (clazz != null) {
+            for (Field field : clazz.getDeclaredFields()) {
+                if (helperMap.containsKey(field.getType())) {
                     field.setAccessible(true);
                     field.set(target, helperMap.get(field.getType()));
                 }

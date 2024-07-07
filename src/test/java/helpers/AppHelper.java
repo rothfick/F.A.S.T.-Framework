@@ -14,7 +14,6 @@ import java.util.Set;
 
 public abstract class AppHelper {
 
-    private static final Logger LOG = LogManager.getLogger(AppHelper.class);
     protected SeleniumElementsHelper seleniumElementsHelper;
 
     public AppHelper(SeleniumElementsHelper seleniumElementsHelper) {
@@ -32,8 +31,8 @@ public abstract class AppHelper {
         Map<Class, AppHelper> appHelperMap = new HashMap<>();
         Reflections reflections = new Reflections(AppHelper.class.getPackage().getName());
         Set<Class<? extends AppHelper>> appHelpers = reflections.getSubTypesOf(AppHelper.class);
-        for(Class<? extends AppHelper> appHelper : appHelpers){
-            if(!Modifier.isAbstract(appHelper.getModifiers())){
+        for (Class<? extends AppHelper> appHelper : appHelpers) {
+            if (!Modifier.isAbstract(appHelper.getModifiers())) {
                 Constructor<? extends AppHelper> constructor = appHelper.getConstructor(
                         SeleniumElementsHelper.class
                 );

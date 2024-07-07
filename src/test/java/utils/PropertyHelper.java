@@ -7,7 +7,6 @@ import org.reflections.Reflections;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.reflect.Modifier;
 import java.text.MessageFormat;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -29,7 +28,8 @@ public final class PropertyHelper {
 
     /**
      * Method that initializes property file cache for given class with property file with given filename.
-     * @param clazz PropertyEnum class for which cache needs to be initialized; required not null
+     *
+     * @param clazz    PropertyEnum class for which cache needs to be initialized; required not null
      * @param filename property file filename; required not null
      * @throws NullPointerException in case filename is incorrect
      */
@@ -46,8 +46,9 @@ public final class PropertyHelper {
     /**
      * Method that fetches the value from caches and formats it with given parameters as specified by {@link MessageFormat},
      * except the single-quote character, which is escaped automatically.
-     * @param clazz PropertyEnum class for which value needs to be fetched from caches; required not null
-     * @param key value key in the .Properties.properties file/bundle; required not null
+     *
+     * @param clazz  PropertyEnum class for which value needs to be fetched from caches; required not null
+     * @param key    value key in the .Properties.properties file/bundle; required not null
      * @param params parameters to be used in formatting
      * @return property value for given class and key, formatted as needed; if value for the given class or key
      * could not be found, null is returned
@@ -67,8 +68,9 @@ public final class PropertyHelper {
     /**
      * Method that fetched the property value from correct cache. If the value needs to be fetched from resource bundle,
      * current user locale will be used or EN_US locale in case current user locale is invalid.
+     *
      * @param className PropertyEnum class name for which value needs to be fetched from caches; required not null
-     * @param key value key in the .Properties.properties file/bundle; required not null
+     * @param key       value key in the .Properties.properties file/bundle; required not null
      * @return property value for given class and key; if value for the given class or key could not be found, null is
      * returned
      */

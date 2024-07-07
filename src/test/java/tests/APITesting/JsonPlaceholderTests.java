@@ -2,13 +2,11 @@ package tests.APITesting;
 
 import base.TestBase;
 import io.qameta.allure.*;
-import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.path.json.JsonPath;
-import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
+
 import static org.hamcrest.Matchers.*;
 
-import java.*;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
