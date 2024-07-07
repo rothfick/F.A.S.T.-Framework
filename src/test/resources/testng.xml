@@ -2,14 +2,25 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="DemoQATestSuite" verbose="1">
 
-
-  <!-- Define test and include all methods from the specified class -->
-  <test name="DemoQATests">
-    <classes>
-      <class name="tests.UI.DemoQA">
-      </class>
-    </classes>
-  </test>
-
-  <!-- You can define multiple <test> tags if you have different groups of tests -->
+    <test name="REST Assured Tests - Wire Mock">
+        <parameter name="wireMockEnabled" value="true"/>
+        <parameter name="useRestAssured" value="false"/>
+        <classes>
+            <class name="tests.APITesting.WireMockTests"></class>
+        </classes>
+    </test>
+    <test name="REST Assured Tests - JSONPlaceHolder">
+        <parameter name="wireMockEnabled" value="false"/>
+        <parameter name="useRestAssured" value="true"/>
+        <classes>
+            <class name="tests.APITesting.JsonPlaceholderTests"></class>
+        </classes>
+    </test>
+    <test name="Selenium UI Tests - DemoQA">
+        <parameter name="wireMockEnabled" value="false"/>
+        <parameter name="useRestAssured" value="false"/>
+        <classes>
+            <class name="tests.UI.DemoQATests"/>
+        </classes>
+    </test>
 </suite>

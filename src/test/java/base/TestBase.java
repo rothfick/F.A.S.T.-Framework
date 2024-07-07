@@ -1,14 +1,21 @@
 package base;
 
+import com.github.tomakehurst.wiremock.WireMockServer;
+import com.github.tomakehurst.wiremock.core.WireMockConfiguration;
 import helpers.AppHelper;
 import io.qameta.allure.Step;
+import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.config.HttpClientConfig;
+import io.restassured.specification.RequestSpecification;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import utils.BrowserManager;
+import utils.DriverManager;
 import helpers.SeleniumElementsHelper;
 import utils.ThreadLogger;
 
@@ -16,6 +23,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.util.*;
+
+import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
 
 public class TestBase {
 
@@ -33,12 +42,29 @@ public class TestBase {
 
     private Map<Class, Object> allHelpers = new HashMap<>();
 
+    protected RequestSpecification requestSpec;
+    protected WireMockServer wireMockServer;
+
+
     @BeforeMethod(alwaysRun = true)
-    protected void setupBeforeTest() throws Exception {
-        testStepCounter = 0;  // Reset step counter before each test method
+    protected void setupBeforeTest(ITestContext context) throws Exception {
+        testStepCounter = 0; // Reset step counter before each test method
         LOG.info("Setup before the test has just started.");
-        setupDriver(BrowserManager.DriverType.LOCAL);  // Przykładowe użycie SAUCELABS, można zmienić w zależności od potrzeb
-        setupHelpers();
+
+        boolean useRestAssured = Boolean.parseBoolean(context.getCurrentXmlTest().getParameter("useRestAssured"));
+        boolean wireMockEnabled = Boolean.parseBoolean(context.getCurrentXmlTest().getParameter("wireMockEnabled"));
+
+        if (useRestAssured) {
+            setupRestAssured();
+            LOG.info("RestAssured setup completed.");
+        } else if (wireMockEnabled) {
+            setupWireMock();
+        }else {
+            setupDriver(DriverManager.DriverType.LOCAL);
+            setupHelpers();
+            LOG.info("Selenium UI setup completed.");
+        }
+
         LOG.info("Setup done.");
     }
 
@@ -52,9 +78,29 @@ public class TestBase {
         LOG.info("Cleanup done.");
     }
 
-    protected void setupDriver(BrowserManager.DriverType driverType) throws Exception {
-        BrowserManager browserManager = new BrowserManager();
-        driver = browserManager.getDriver(getBrowserFromProperties(), driverType);
+    protected void setupRestAssured() {
+        RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
+        requestSpec = RestAssured.given().contentType("application/json");
+        // Tutaj można dodać więcej konfiguracji
+    }
+
+    protected void setupWireMock() {
+        // Initialize the WireMock server on a dynamic port
+        wireMockServer = new WireMockServer(WireMockConfiguration.options().dynamicPort());
+        wireMockServer.start();
+
+        // Configure RestAssured to use the base URI where WireMock is running
+        RestAssured.baseURI = "http://localhost:" + wireMockServer.port();
+        requestSpec = RestAssured.given()
+                .contentType("application/json")
+                .baseUri(RestAssured.baseURI);
+
+        LOG.info("WireMock started on port: " + wireMockServer.port());
+    }
+
+    protected void setupDriver(DriverManager.DriverType driverType) throws Exception {
+        DriverManager driverManager = new DriverManager();
+        driver = driverManager.getDriver(getBrowserFromProperties(), driverType);
         configureWebDriver(driver);
         driverWait = new WebDriverWait(driver, WEB_DRIVER_TIMEOUT);
     }

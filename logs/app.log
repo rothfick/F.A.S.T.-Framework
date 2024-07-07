@@ -4649,3 +4649,2587 @@
 2024-07-07 13:59:52 INFO  TestBase:96 - [TEST RESULT]: Session and cookie handling test completed - PASSED
 2024-07-07 13:59:52 INFO  TestBase:47 - Cleaning up after test.
 2024-07-07 13:59:52 INFO  TestBase:52 - Cleanup done.
+2024-07-07 14:22:34 INFO  TestBase:59 - Cleaning up after test.
+2024-07-07 14:22:34 INFO  TestBase:64 - Cleanup done.
+2024-07-07 14:22:34 INFO  TestBase:59 - Cleaning up after test.
+2024-07-07 14:22:34 INFO  TestBase:64 - Cleanup done.
+2024-07-07 14:22:34 INFO  TestBase:59 - Cleaning up after test.
+2024-07-07 14:22:34 INFO  TestBase:64 - Cleanup done.
+2024-07-07 14:22:34 INFO  TestBase:59 - Cleaning up after test.
+2024-07-07 14:22:34 INFO  TestBase:64 - Cleanup done.
+2024-07-07 14:22:34 INFO  TestBase:59 - Cleaning up after test.
+2024-07-07 14:22:34 INFO  TestBase:64 - Cleanup done.
+2024-07-07 14:22:34 INFO  TestBase:59 - Cleaning up after test.
+2024-07-07 14:22:34 INFO  TestBase:64 - Cleanup done.
+2024-07-07 14:22:34 INFO  TestBase:59 - Cleaning up after test.
+2024-07-07 14:22:34 INFO  TestBase:64 - Cleanup done.
+2024-07-07 14:22:34 INFO  TestBase:59 - Cleaning up after test.
+2024-07-07 14:22:34 INFO  TestBase:64 - Cleanup done.
+2024-07-07 14:22:34 INFO  TestBase:59 - Cleaning up after test.
+2024-07-07 14:22:34 INFO  TestBase:64 - Cleanup done.
+2024-07-07 14:22:34 INFO  TestBase:59 - Cleaning up after test.
+2024-07-07 14:22:34 INFO  TestBase:64 - Cleanup done.
+2024-07-07 14:22:34 INFO  TestBase:59 - Cleaning up after test.
+2024-07-07 14:22:34 INFO  TestBase:64 - Cleanup done.
+2024-07-07 14:24:23 INFO  TestBase:52 - Cleaning up after test.
+2024-07-07 14:24:23 INFO  TestBase:57 - Cleanup done.
+2024-07-07 14:24:23 INFO  TestBase:52 - Cleaning up after test.
+2024-07-07 14:24:23 INFO  TestBase:57 - Cleanup done.
+2024-07-07 14:24:23 INFO  TestBase:52 - Cleaning up after test.
+2024-07-07 14:24:23 INFO  TestBase:57 - Cleanup done.
+2024-07-07 14:24:23 INFO  TestBase:52 - Cleaning up after test.
+2024-07-07 14:24:23 INFO  TestBase:57 - Cleanup done.
+2024-07-07 14:24:23 INFO  TestBase:52 - Cleaning up after test.
+2024-07-07 14:24:23 INFO  TestBase:57 - Cleanup done.
+2024-07-07 14:24:23 INFO  TestBase:52 - Cleaning up after test.
+2024-07-07 14:24:23 INFO  TestBase:57 - Cleanup done.
+2024-07-07 14:24:23 INFO  TestBase:52 - Cleaning up after test.
+2024-07-07 14:24:23 INFO  TestBase:57 - Cleanup done.
+2024-07-07 14:24:23 INFO  TestBase:52 - Cleaning up after test.
+2024-07-07 14:24:23 INFO  TestBase:57 - Cleanup done.
+2024-07-07 14:24:23 INFO  TestBase:52 - Cleaning up after test.
+2024-07-07 14:24:23 INFO  TestBase:57 - Cleanup done.
+2024-07-07 14:24:23 INFO  TestBase:52 - Cleaning up after test.
+2024-07-07 14:24:23 INFO  TestBase:57 - Cleanup done.
+2024-07-07 14:24:23 INFO  TestBase:52 - Cleaning up after test.
+2024-07-07 14:24:23 INFO  TestBase:57 - Cleanup done.
+2024-07-07 14:33:35 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:33:35 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:33:37 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:33:37 INFO  TestBase:57 - Setup done.
+2024-07-07 14:33:37 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:33:39 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:33:39 INFO  TestBase:107 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 14:33:39 INFO  TestBase:107 - [STEP 4] Using JavaScript to perform double click
+2024-07-07 14:33:39 INFO  TestBase:107 - [STEP 5] Verifying JavaScript manipulation
+2024-07-07 14:33:39 INFO  TestBase:116 - [TEST RESULT]: Advanced JavaScript manipulations test completed - PASSED
+2024-07-07 14:33:39 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:33:40 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:33:40 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:33:40 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:33:41 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:33:41 INFO  TestBase:57 - Setup done.
+2024-07-07 14:33:41 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:33:43 INFO  TestBase:107 - [STEP 2] Clicking on 'Alerts, Frame & Windows' tile
+2024-07-07 14:33:43 INFO  TestBase:107 - [STEP 3] Clicking on 'Alerts' section
+2024-07-07 14:33:43 INFO  TestBase:107 - [STEP 4] Triggering an alert
+2024-07-07 14:33:43 INFO  TestBase:107 - [STEP 5] Verifying alert was accepted
+2024-07-07 14:33:43 INFO  TestBase:116 - [TEST RESULT]: Alert functionality test completed - PASSED
+2024-07-07 14:33:43 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:33:44 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:33:44 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:33:44 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:33:45 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:33:45 INFO  TestBase:57 - Setup done.
+2024-07-07 14:33:45 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:33:47 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:33:47 INFO  TestBase:107 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 14:33:47 INFO  TestBase:107 - [STEP 4] Clicking on a button
+2024-07-07 14:33:47 INFO  TestBase:107 - [STEP 5] Verifying the button has been clicked
+2024-07-07 14:33:47 INFO  TestBase:116 - [TEST RESULT]: Button click test completed - PASSED
+2024-07-07 14:33:47 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:33:48 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:33:48 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:33:48 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:33:49 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:33:49 INFO  TestBase:57 - Setup done.
+2024-07-07 14:33:49 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:33:51 INFO  TestBase:107 - [STEP 2] Clicking on 'Widgets' tile
+2024-07-07 14:33:51 INFO  TestBase:107 - [STEP 3] Clicking on 'Select Menu' section
+2024-07-07 14:33:51 INFO  TestBase:107 - [STEP 4] Selecting an option from dropdown
+2024-07-07 14:33:52 INFO  TestBase:107 - [STEP 5] Verifying the option is selected
+2024-07-07 14:33:52 INFO  TestBase:116 - [TEST RESULT]: Dropdown functionality test completed - PASSED
+2024-07-07 14:33:52 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:33:53 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:33:53 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:33:53 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:33:54 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:33:54 INFO  TestBase:57 - Setup done.
+2024-07-07 14:33:54 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:33:56 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:33:56 INFO  TestBase:107 - [STEP 3] Clicking on 'Dynamic Properties' section
+2024-07-07 14:33:56 INFO  TestBase:107 - [STEP 4] Waiting for dynamically loaded button to appear
+2024-07-07 14:34:01 INFO  TestBase:107 - [STEP 5] Clicking on the dynamically loaded button
+2024-07-07 14:34:01 INFO  TestBase:107 - [STEP 6] Verifying button click
+2024-07-07 14:34:02 INFO  TestBase:116 - [TEST RESULT]: Dynamic loads handling test completed - PASSED
+2024-07-07 14:34:02 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:34:02 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:34:02 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:34:02 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:34:03 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:34:03 INFO  TestBase:57 - Setup done.
+2024-07-07 14:34:03 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:34:05 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:34:05 INFO  TestBase:107 - [STEP 3] Clicking on 'Web Tables' section
+2024-07-07 14:34:05 INFO  TestBase:107 - [STEP 4] Adding a new record to the table
+2024-07-07 14:34:08 INFO  TestBase:107 - [STEP 5] Verifying record addition
+2024-07-07 14:34:08 INFO  TestBase:116 - [TEST RESULT]: Interactive table functionality test completed - PASSED
+2024-07-07 14:34:08 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:34:08 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:34:08 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:34:08 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:34:09 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:34:09 INFO  TestBase:57 - Setup done.
+2024-07-07 14:34:09 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:34:11 INFO  TestBase:107 - [STEP 2] Clicking on 'Book Store Application' tile
+2024-07-07 14:34:11 INFO  TestBase:107 - [STEP 3] Clicking on 'Login' section
+2024-07-07 14:34:11 INFO  TestBase:107 - [STEP 4] Entering username
+2024-07-07 14:34:12 INFO  TestBase:107 - [STEP 5] Entering password
+2024-07-07 14:34:13 INFO  TestBase:107 - [STEP 6] Clicking on login button
+2024-07-07 14:34:13 INFO  TestBase:107 - [STEP 7] Verifying user is logged in
+2024-07-07 14:34:18 INFO  TestBase:107 - [STEP 8] Verifying 'Log out' button is visible
+2024-07-07 14:34:18 INFO  TestBase:116 - [TEST RESULT]: Login functionality test completed - PASSED
+2024-07-07 14:34:18 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:34:18 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:34:18 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:34:18 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:34:19 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:34:19 INFO  TestBase:57 - Setup done.
+2024-07-07 14:34:19 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:34:21 INFO  TestBase:107 - [STEP 2] Clicking on 'Forms' tile
+2024-07-07 14:34:21 INFO  TestBase:107 - [STEP 3] Clicking on 'Practice Form' section
+2024-07-07 14:34:22 INFO  TestBase:107 - [STEP 4] Filling out multiple sections of the form
+2024-07-07 14:34:23 INFO  TestBase:107 - [STEP 5] Filling out Date of Birth
+2024-07-07 14:34:24 INFO  TestBase:107 - [STEP 6] Filling out Subjects
+2024-07-07 14:34:24 INFO  TestBase:107 - [STEP 7] Selecting Hobbies
+2024-07-07 14:34:24 INFO  TestBase:107 - [STEP 8] Uploading Picture
+2024-07-07 14:34:27 INFO  TestBase:107 - [STEP 9] Verifying form submission
+2024-07-07 14:34:27 INFO  TestBase:107 - [STEP 10] Verifying submission message
+2024-07-07 14:34:27 INFO  TestBase:116 - [TEST RESULT]: Multi-section form handling test completed - PASSED
+2024-07-07 14:34:27 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:34:28 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:34:28 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:34:28 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:34:29 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:34:29 INFO  TestBase:57 - Setup done.
+2024-07-07 14:34:29 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:34:31 INFO  TestBase:107 - [STEP 2] Simulating network error
+2024-07-07 14:34:31 INFO  TestBase:107 - [STEP 3] Attempting to recover from network error
+2024-07-07 14:34:31 INFO  TestBase:107 - [STEP 4] Verifying page recovery
+2024-07-07 14:34:31 INFO  TestBase:116 - [TEST RESULT]: Network error handling test completed - PASSED
+2024-07-07 14:34:31 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:34:31 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:34:31 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:34:31 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:34:33 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:34:33 INFO  TestBase:57 - Setup done.
+2024-07-07 14:34:33 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:34:34 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:34:34 INFO  TestBase:107 - [STEP 3] Clicking on 'Links' section
+2024-07-07 14:34:35 INFO  TestBase:107 - [STEP 4] Scrolling to the bottom of the page
+2024-07-07 14:34:35 INFO  TestBase:107 - [STEP 5] Verifying the footer is visible
+2024-07-07 14:34:35 INFO  TestBase:116 - [TEST RESULT]: Scrolling functionality test completed - PASSED
+2024-07-07 14:34:35 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:34:35 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:34:35 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:34:35 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:34:36 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:34:36 INFO  TestBase:57 - Setup done.
+2024-07-07 14:34:36 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:34:38 INFO  TestBase:107 - [STEP 2] Setting a session cookie
+2024-07-07 14:34:38 INFO  TestBase:107 - [STEP 3] Verifying the cookie is set correctly
+2024-07-07 14:34:38 INFO  TestBase:116 - [TEST RESULT]: Session and cookie handling test completed - PASSED
+2024-07-07 14:34:38 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:34:38 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:36:24 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:36:24 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:36:25 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:36:25 INFO  TestBase:57 - Setup done.
+2024-07-07 14:36:26 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:36:27 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:36:28 INFO  TestBase:107 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 14:36:28 INFO  TestBase:107 - [STEP 4] Using JavaScript to perform double click
+2024-07-07 14:36:28 INFO  TestBase:107 - [STEP 5] Verifying JavaScript manipulation
+2024-07-07 14:36:28 INFO  TestBase:116 - [TEST RESULT]: Advanced JavaScript manipulations test completed - PASSED
+2024-07-07 14:36:28 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:36:28 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:36:28 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:36:28 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:36:29 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:36:29 INFO  TestBase:57 - Setup done.
+2024-07-07 14:36:29 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:36:31 INFO  TestBase:107 - [STEP 2] Clicking on 'Alerts, Frame & Windows' tile
+2024-07-07 14:36:31 INFO  TestBase:107 - [STEP 3] Clicking on 'Alerts' section
+2024-07-07 14:36:32 INFO  TestBase:107 - [STEP 4] Triggering an alert
+2024-07-07 14:36:32 INFO  TestBase:107 - [STEP 5] Verifying alert was accepted
+2024-07-07 14:36:32 INFO  TestBase:116 - [TEST RESULT]: Alert functionality test completed - PASSED
+2024-07-07 14:36:32 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:36:32 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:36:32 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:36:32 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:36:33 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:36:33 INFO  TestBase:57 - Setup done.
+2024-07-07 14:36:33 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:36:35 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:36:35 INFO  TestBase:107 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 14:36:35 INFO  TestBase:107 - [STEP 4] Clicking on a button
+2024-07-07 14:36:35 INFO  TestBase:107 - [STEP 5] Verifying the button has been clicked
+2024-07-07 14:36:35 INFO  TestBase:116 - [TEST RESULT]: Button click test completed - PASSED
+2024-07-07 14:36:35 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:36:35 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:36:35 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:36:35 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:36:37 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:36:37 INFO  TestBase:57 - Setup done.
+2024-07-07 14:36:37 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:36:38 INFO  TestBase:107 - [STEP 2] Clicking on 'Widgets' tile
+2024-07-07 14:36:39 INFO  TestBase:107 - [STEP 3] Clicking on 'Select Menu' section
+2024-07-07 14:36:39 INFO  TestBase:107 - [STEP 4] Selecting an option from dropdown
+2024-07-07 14:36:39 INFO  TestBase:107 - [STEP 5] Verifying the option is selected
+2024-07-07 14:36:39 INFO  TestBase:116 - [TEST RESULT]: Dropdown functionality test completed - PASSED
+2024-07-07 14:36:39 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:36:39 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:36:39 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:36:39 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:36:40 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:36:40 INFO  TestBase:57 - Setup done.
+2024-07-07 14:36:40 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:36:42 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:36:42 INFO  TestBase:107 - [STEP 3] Clicking on 'Dynamic Properties' section
+2024-07-07 14:36:42 INFO  TestBase:107 - [STEP 4] Waiting for dynamically loaded button to appear
+2024-07-07 14:36:47 INFO  TestBase:107 - [STEP 5] Clicking on the dynamically loaded button
+2024-07-07 14:36:48 INFO  TestBase:107 - [STEP 6] Verifying button click
+2024-07-07 14:36:48 INFO  TestBase:116 - [TEST RESULT]: Dynamic loads handling test completed - PASSED
+2024-07-07 14:36:48 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:36:48 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:36:48 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:36:48 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:36:49 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:36:49 INFO  TestBase:57 - Setup done.
+2024-07-07 14:36:49 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:36:50 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:36:50 INFO  TestBase:107 - [STEP 3] Clicking on 'Web Tables' section
+2024-07-07 14:36:50 INFO  TestBase:107 - [STEP 4] Adding a new record to the table
+2024-07-07 14:36:52 INFO  TestBase:107 - [STEP 5] Verifying record addition
+2024-07-07 14:36:52 INFO  TestBase:116 - [TEST RESULT]: Interactive table functionality test completed - PASSED
+2024-07-07 14:36:52 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:36:52 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:36:52 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:36:52 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:36:53 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:36:53 INFO  TestBase:57 - Setup done.
+2024-07-07 14:36:53 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:36:55 INFO  TestBase:107 - [STEP 2] Clicking on 'Book Store Application' tile
+2024-07-07 14:36:55 INFO  TestBase:107 - [STEP 3] Clicking on 'Login' section
+2024-07-07 14:36:55 INFO  TestBase:107 - [STEP 4] Entering username
+2024-07-07 14:36:55 INFO  TestBase:107 - [STEP 5] Entering password
+2024-07-07 14:36:56 INFO  TestBase:107 - [STEP 6] Clicking on login button
+2024-07-07 14:36:56 INFO  TestBase:107 - [STEP 7] Verifying user is logged in
+2024-07-07 14:37:01 INFO  TestBase:107 - [STEP 8] Verifying 'Log out' button is visible
+2024-07-07 14:37:01 INFO  TestBase:116 - [TEST RESULT]: Login functionality test completed - PASSED
+2024-07-07 14:37:01 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:37:02 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:37:02 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:37:02 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:37:03 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:37:03 INFO  TestBase:57 - Setup done.
+2024-07-07 14:37:03 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:37:04 INFO  TestBase:107 - [STEP 2] Clicking on 'Forms' tile
+2024-07-07 14:37:05 INFO  TestBase:107 - [STEP 3] Clicking on 'Practice Form' section
+2024-07-07 14:37:05 INFO  TestBase:107 - [STEP 4] Filling out multiple sections of the form
+2024-07-07 14:37:05 INFO  TestBase:107 - [STEP 5] Filling out Date of Birth
+2024-07-07 14:37:07 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:37:07 INFO  TestBase:116 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 14:37:07 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:37:07 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:37:07 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:37:08 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:37:08 INFO  TestBase:57 - Setup done.
+2024-07-07 14:37:08 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:37:09 INFO  TestBase:107 - [STEP 2] Simulating network error
+2024-07-07 14:37:10 INFO  TestBase:107 - [STEP 3] Attempting to recover from network error
+2024-07-07 14:37:10 INFO  TestBase:107 - [STEP 4] Verifying page recovery
+2024-07-07 14:37:10 INFO  TestBase:116 - [TEST RESULT]: Network error handling test completed - PASSED
+2024-07-07 14:37:10 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:37:10 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:37:10 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:37:10 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:37:11 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:37:11 INFO  TestBase:57 - Setup done.
+2024-07-07 14:37:11 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:37:13 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:37:13 INFO  TestBase:107 - [STEP 3] Clicking on 'Links' section
+2024-07-07 14:37:13 INFO  TestBase:107 - [STEP 4] Scrolling to the bottom of the page
+2024-07-07 14:37:13 INFO  TestBase:107 - [STEP 5] Verifying the footer is visible
+2024-07-07 14:37:13 INFO  TestBase:116 - [TEST RESULT]: Scrolling functionality test completed - PASSED
+2024-07-07 14:37:13 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:37:13 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:37:13 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:37:13 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:37:15 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:37:15 INFO  TestBase:57 - Setup done.
+2024-07-07 14:37:15 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:37:16 INFO  TestBase:107 - [STEP 2] Setting a session cookie
+2024-07-07 14:37:16 INFO  TestBase:107 - [STEP 3] Verifying the cookie is set correctly
+2024-07-07 14:37:16 INFO  TestBase:116 - [TEST RESULT]: Session and cookie handling test completed - PASSED
+2024-07-07 14:37:16 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:37:16 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:38:16 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:38:16 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:38:17 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:38:17 INFO  TestBase:57 - Setup done.
+2024-07-07 14:38:17 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:38:19 INFO  TestBase:107 - [STEP 2] Clicking on 'Forms' tile
+2024-07-07 14:38:19 INFO  TestBase:107 - [STEP 3] Clicking on 'Practice Form' section
+2024-07-07 14:38:19 INFO  TestBase:107 - [STEP 4] Filling out multiple sections of the form
+2024-07-07 14:38:19 INFO  TestBase:107 - [STEP 5] Filling out Date of Birth
+2024-07-07 14:38:21 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:38:21 INFO  TestBase:116 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 14:38:21 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:38:49 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:38:49 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:38:50 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:38:50 INFO  TestBase:57 - Setup done.
+2024-07-07 14:38:50 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:38:52 INFO  TestBase:107 - [STEP 2] Clicking on 'Forms' tile
+2024-07-07 14:38:52 INFO  TestBase:107 - [STEP 3] Clicking on 'Practice Form' section
+2024-07-07 14:38:52 INFO  TestBase:107 - [STEP 4] Filling out multiple sections of the form
+2024-07-07 14:38:53 INFO  TestBase:107 - [STEP 5] Filling out Date of Birth
+2024-07-07 14:38:53 INFO  TestBase:107 - [STEP 6] Filling out Subjects
+2024-07-07 14:38:54 INFO  TestBase:107 - [STEP 7] Selecting Hobbies
+2024-07-07 14:38:54 INFO  TestBase:107 - [STEP 8] Uploading Picture
+2024-07-07 14:38:57 INFO  TestBase:107 - [STEP 9] Verifying form submission
+2024-07-07 14:38:57 INFO  TestBase:107 - [STEP 10] Verifying submission message
+2024-07-07 14:38:57 INFO  TestBase:116 - [TEST RESULT]: Multi-section form handling test completed - PASSED
+2024-07-07 14:38:57 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:38:58 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:39:21 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:39:21 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:39:22 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:39:22 INFO  TestBase:57 - Setup done.
+2024-07-07 14:39:22 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:39:24 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:39:24 INFO  TestBase:107 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 14:39:24 INFO  TestBase:107 - [STEP 4] Using JavaScript to perform double click
+2024-07-07 14:39:24 INFO  TestBase:107 - [STEP 5] Verifying JavaScript manipulation
+2024-07-07 14:39:25 INFO  TestBase:116 - [TEST RESULT]: Advanced JavaScript manipulations test completed - PASSED
+2024-07-07 14:39:25 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:39:25 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:39:25 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:39:25 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:39:26 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:39:26 INFO  TestBase:57 - Setup done.
+2024-07-07 14:39:26 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:39:28 INFO  TestBase:107 - [STEP 2] Clicking on 'Alerts, Frame & Windows' tile
+2024-07-07 14:39:28 INFO  TestBase:107 - [STEP 3] Clicking on 'Alerts' section
+2024-07-07 14:39:28 INFO  TestBase:107 - [STEP 4] Triggering an alert
+2024-07-07 14:39:28 INFO  TestBase:107 - [STEP 5] Verifying alert was accepted
+2024-07-07 14:39:28 INFO  TestBase:116 - [TEST RESULT]: Alert functionality test completed - PASSED
+2024-07-07 14:39:28 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:39:28 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:39:28 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:39:28 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:39:29 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:39:29 INFO  TestBase:57 - Setup done.
+2024-07-07 14:39:29 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:39:31 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:39:31 INFO  TestBase:107 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 14:39:31 INFO  TestBase:107 - [STEP 4] Clicking on a button
+2024-07-07 14:39:32 INFO  TestBase:107 - [STEP 5] Verifying the button has been clicked
+2024-07-07 14:39:32 INFO  TestBase:116 - [TEST RESULT]: Button click test completed - PASSED
+2024-07-07 14:39:32 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:39:32 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:39:32 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:39:32 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:39:33 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:39:33 INFO  TestBase:57 - Setup done.
+2024-07-07 14:39:33 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:39:35 INFO  TestBase:107 - [STEP 2] Clicking on 'Widgets' tile
+2024-07-07 14:39:35 INFO  TestBase:107 - [STEP 3] Clicking on 'Select Menu' section
+2024-07-07 14:39:35 INFO  TestBase:107 - [STEP 4] Selecting an option from dropdown
+2024-07-07 14:39:35 INFO  TestBase:107 - [STEP 5] Verifying the option is selected
+2024-07-07 14:39:35 INFO  TestBase:116 - [TEST RESULT]: Dropdown functionality test completed - PASSED
+2024-07-07 14:39:35 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:39:35 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:39:35 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:39:35 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:39:36 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:39:36 INFO  TestBase:57 - Setup done.
+2024-07-07 14:39:36 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:39:38 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:39:38 INFO  TestBase:107 - [STEP 3] Clicking on 'Dynamic Properties' section
+2024-07-07 14:39:39 INFO  TestBase:107 - [STEP 4] Waiting for dynamically loaded button to appear
+2024-07-07 14:39:44 INFO  TestBase:107 - [STEP 5] Clicking on the dynamically loaded button
+2024-07-07 14:39:44 INFO  TestBase:107 - [STEP 6] Verifying button click
+2024-07-07 14:39:44 INFO  TestBase:116 - [TEST RESULT]: Dynamic loads handling test completed - PASSED
+2024-07-07 14:39:44 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:39:44 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:39:44 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:39:44 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:39:45 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:39:45 INFO  TestBase:57 - Setup done.
+2024-07-07 14:39:45 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:39:46 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:39:46 INFO  TestBase:107 - [STEP 3] Clicking on 'Web Tables' section
+2024-07-07 14:39:47 INFO  TestBase:107 - [STEP 4] Adding a new record to the table
+2024-07-07 14:39:49 INFO  TestBase:107 - [STEP 5] Verifying record addition
+2024-07-07 14:39:49 INFO  TestBase:116 - [TEST RESULT]: Interactive table functionality test completed - PASSED
+2024-07-07 14:39:49 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:39:49 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:39:49 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:39:49 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:39:50 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:39:50 INFO  TestBase:57 - Setup done.
+2024-07-07 14:39:50 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:39:52 INFO  TestBase:107 - [STEP 2] Clicking on 'Book Store Application' tile
+2024-07-07 14:39:52 INFO  TestBase:107 - [STEP 3] Clicking on 'Login' section
+2024-07-07 14:39:52 INFO  TestBase:107 - [STEP 4] Entering username
+2024-07-07 14:39:52 INFO  TestBase:107 - [STEP 5] Entering password
+2024-07-07 14:39:52 INFO  TestBase:107 - [STEP 6] Clicking on login button
+2024-07-07 14:39:53 INFO  TestBase:107 - [STEP 7] Verifying user is logged in
+2024-07-07 14:39:58 INFO  TestBase:107 - [STEP 8] Verifying 'Log out' button is visible
+2024-07-07 14:39:58 INFO  TestBase:116 - [TEST RESULT]: Login functionality test completed - PASSED
+2024-07-07 14:39:58 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:39:58 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:39:58 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:39:58 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:39:59 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:39:59 INFO  TestBase:57 - Setup done.
+2024-07-07 14:39:59 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:40:00 INFO  TestBase:107 - [STEP 2] Clicking on 'Forms' tile
+2024-07-07 14:40:00 INFO  TestBase:107 - [STEP 3] Clicking on 'Practice Form' section
+2024-07-07 14:40:01 INFO  TestBase:107 - [STEP 4] Filling out multiple sections of the form
+2024-07-07 14:40:01 INFO  TestBase:107 - [STEP 5] Filling out Date of Birth
+2024-07-07 14:40:01 INFO  TestBase:107 - [STEP 6] Filling out Subjects
+2024-07-07 14:40:02 INFO  TestBase:107 - [STEP 7] Selecting Hobbies
+2024-07-07 14:40:02 INFO  TestBase:107 - [STEP 8] Uploading Picture
+2024-07-07 14:40:05 INFO  TestBase:107 - [STEP 9] Verifying form submission
+2024-07-07 14:40:05 INFO  TestBase:107 - [STEP 10] Verifying submission message
+2024-07-07 14:40:05 INFO  TestBase:116 - [TEST RESULT]: Multi-section form handling test completed - PASSED
+2024-07-07 14:40:05 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:40:06 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:40:06 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:40:06 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:40:06 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:40:06 INFO  TestBase:57 - Setup done.
+2024-07-07 14:40:06 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:40:08 INFO  TestBase:107 - [STEP 2] Simulating network error
+2024-07-07 14:40:08 INFO  TestBase:107 - [STEP 3] Attempting to recover from network error
+2024-07-07 14:40:09 INFO  TestBase:107 - [STEP 4] Verifying page recovery
+2024-07-07 14:40:09 INFO  TestBase:116 - [TEST RESULT]: Network error handling test completed - PASSED
+2024-07-07 14:40:09 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:40:09 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:40:09 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:40:09 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:40:10 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:40:10 INFO  TestBase:57 - Setup done.
+2024-07-07 14:40:10 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:40:12 INFO  TestBase:107 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 14:40:12 INFO  TestBase:107 - [STEP 3] Clicking on 'Links' section
+2024-07-07 14:40:12 INFO  TestBase:107 - [STEP 4] Scrolling to the bottom of the page
+2024-07-07 14:40:12 INFO  TestBase:107 - [STEP 5] Verifying the footer is visible
+2024-07-07 14:40:12 INFO  TestBase:116 - [TEST RESULT]: Scrolling functionality test completed - PASSED
+2024-07-07 14:40:12 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:40:12 INFO  TestBase:67 - Cleanup done.
+2024-07-07 14:40:12 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 14:40:12 WARN  TestBase:92 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 14:40:13 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 14:40:13 INFO  TestBase:57 - Setup done.
+2024-07-07 14:40:13 INFO  TestBase:107 - [STEP 1] Navigating to home page
+2024-07-07 14:40:15 INFO  TestBase:107 - [STEP 2] Setting a session cookie
+2024-07-07 14:40:15 INFO  TestBase:107 - [STEP 3] Verifying the cookie is set correctly
+2024-07-07 14:40:15 INFO  TestBase:116 - [TEST RESULT]: Session and cookie handling test completed - PASSED
+2024-07-07 14:40:15 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 14:40:15 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:05 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:05 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:06 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:06 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:07 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:07 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:07 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:07 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:08 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:08 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:08 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:08 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:08 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:08 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:09 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:09 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:09 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:09 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:09 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:09 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:10 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:10 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:10 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:10 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:10 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:10 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:11 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:11 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:11 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:11 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:11 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:11 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:12 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:12 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:12 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:12 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:12 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:12 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:14 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:14 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:14 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:14 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:14 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:14 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:15 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:15 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:15 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:15 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:15 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:15 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:16 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:16 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:16 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:16 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:16 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:16 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:17 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:17 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:17 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:18 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:18 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:18 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:19 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:19 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:19 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:19 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:19 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:19 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:21 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:21 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:21 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:21 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:21 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:21 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:22 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:22 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:22 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:23 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:23 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:23 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:25 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:25 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:25 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:25 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:25 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:25 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:26 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:26 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:26 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:26 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:26 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:26 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:27 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:27 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:27 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:27 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:27 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:27 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:28 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:28 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:28 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:28 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:29 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:29 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:30 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:30 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:30 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:30 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:30 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:30 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:31 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:31 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:31 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:31 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:31 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:31 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:32 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:32 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:32 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:32 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:32 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:32 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:33 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:33 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:33 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:33 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:33 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:33 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:34 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:34 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:34 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:35 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:35 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:35 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:36 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:36 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:36 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:36 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:36 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:36 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:37 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:37 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:37 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:37 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:09:37 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:09:37 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:09:38 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:09:38 INFO  TestBase:57 - Setup done.
+2024-07-07 15:09:38 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:09:39 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:10:59 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:10:59 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:11:01 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:11:01 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:01 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:01 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:01 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:01 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:11:02 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:11:02 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:02 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:02 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:02 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:02 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:11:03 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:11:03 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:03 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:03 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:03 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:03 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:11:17 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:18 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:18 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:19 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:19 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:19 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:19 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:19 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:20 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:20 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:20 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:20 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:20 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:20 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:20 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:20 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:20 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:20 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:21 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:21 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:21 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:21 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:21 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:21 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:21 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:21 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:21 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:21 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:21 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:21 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:21 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:21 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:21 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:22 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:22 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:22 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:22 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:22 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:22 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:22 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:22 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:22 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:22 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:23 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:23 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:23 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:23 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:23 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:23 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:23 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:23 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:23 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:23 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:23 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:23 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:23 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:23 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:23 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:24 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:24 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:24 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:24 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:24 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:24 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:24 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:24 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:24 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:24 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:25 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:25 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:25 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:25 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:25 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:25 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:25 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:25 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:25 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:25 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:25 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:25 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:25 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:25 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:25 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:26 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:26 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:26 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:26 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:26 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:26 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:26 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:26 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:26 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:26 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:27 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:27 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:27 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:27 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:27 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:27 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:27 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:27 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:27 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:27 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:28 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:28 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:28 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:28 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:28 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:28 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:28 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:28 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:28 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:28 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:29 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:29 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:29 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:29 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:29 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:29 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:29 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:29 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:29 INFO  TestBase:50 - RestAssured setup completed.
+2024-07-07 15:11:29 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:34 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:34 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:34 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:34 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:11:35 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:11:35 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:35 INFO  TestBase:109 - [STEP 1] Navigating to home page
+2024-07-07 15:11:36 INFO  TestBase:109 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 15:11:36 INFO  TestBase:109 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 15:11:36 INFO  TestBase:109 - [STEP 4] Using JavaScript to perform double click
+2024-07-07 15:11:37 INFO  TestBase:109 - [STEP 5] Verifying JavaScript manipulation
+2024-07-07 15:11:37 INFO  TestBase:118 - [TEST RESULT]: Advanced JavaScript manipulations test completed - PASSED
+2024-07-07 15:11:37 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:37 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:37 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:37 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:11:38 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:11:38 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:38 INFO  TestBase:109 - [STEP 1] Navigating to home page
+2024-07-07 15:11:39 INFO  TestBase:109 - [STEP 2] Clicking on 'Alerts, Frame & Windows' tile
+2024-07-07 15:11:39 INFO  TestBase:109 - [STEP 3] Clicking on 'Alerts' section
+2024-07-07 15:11:39 INFO  TestBase:109 - [STEP 4] Triggering an alert
+2024-07-07 15:11:39 INFO  TestBase:109 - [STEP 5] Verifying alert was accepted
+2024-07-07 15:11:39 INFO  TestBase:118 - [TEST RESULT]: Alert functionality test completed - PASSED
+2024-07-07 15:11:39 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:39 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:39 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:39 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:11:40 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:11:40 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:40 INFO  TestBase:109 - [STEP 1] Navigating to home page
+2024-07-07 15:11:42 INFO  TestBase:109 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 15:11:42 INFO  TestBase:109 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 15:11:42 INFO  TestBase:109 - [STEP 4] Clicking on a button
+2024-07-07 15:11:42 INFO  TestBase:109 - [STEP 5] Verifying the button has been clicked
+2024-07-07 15:11:42 INFO  TestBase:118 - [TEST RESULT]: Button click test completed - PASSED
+2024-07-07 15:11:42 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:42 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:42 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:42 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:11:43 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:11:43 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:43 INFO  TestBase:109 - [STEP 1] Navigating to home page
+2024-07-07 15:11:45 INFO  TestBase:109 - [STEP 2] Clicking on 'Widgets' tile
+2024-07-07 15:11:45 INFO  TestBase:109 - [STEP 3] Clicking on 'Select Menu' section
+2024-07-07 15:11:45 INFO  TestBase:109 - [STEP 4] Selecting an option from dropdown
+2024-07-07 15:11:45 INFO  TestBase:109 - [STEP 5] Verifying the option is selected
+2024-07-07 15:11:45 INFO  TestBase:118 - [TEST RESULT]: Dropdown functionality test completed - PASSED
+2024-07-07 15:11:45 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:45 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:45 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:45 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:11:46 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:11:46 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:46 INFO  TestBase:109 - [STEP 1] Navigating to home page
+2024-07-07 15:11:48 INFO  TestBase:109 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 15:11:48 INFO  TestBase:109 - [STEP 3] Clicking on 'Dynamic Properties' section
+2024-07-07 15:11:48 INFO  TestBase:109 - [STEP 4] Waiting for dynamically loaded button to appear
+2024-07-07 15:11:53 INFO  TestBase:109 - [STEP 5] Clicking on the dynamically loaded button
+2024-07-07 15:11:53 INFO  TestBase:109 - [STEP 6] Verifying button click
+2024-07-07 15:11:53 INFO  TestBase:118 - [TEST RESULT]: Dynamic loads handling test completed - PASSED
+2024-07-07 15:11:53 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:54 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:54 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:54 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:11:54 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:11:54 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:54 INFO  TestBase:109 - [STEP 1] Navigating to home page
+2024-07-07 15:11:56 INFO  TestBase:109 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 15:11:56 INFO  TestBase:109 - [STEP 3] Clicking on 'Web Tables' section
+2024-07-07 15:11:56 INFO  TestBase:109 - [STEP 4] Adding a new record to the table
+2024-07-07 15:11:58 INFO  TestBase:109 - [STEP 5] Verifying record addition
+2024-07-07 15:11:58 INFO  TestBase:118 - [TEST RESULT]: Interactive table functionality test completed - PASSED
+2024-07-07 15:11:58 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:11:58 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:11:58 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:11:58 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:11:59 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:11:59 INFO  TestBase:57 - Setup done.
+2024-07-07 15:11:59 INFO  TestBase:109 - [STEP 1] Navigating to home page
+2024-07-07 15:12:01 INFO  TestBase:109 - [STEP 2] Clicking on 'Book Store Application' tile
+2024-07-07 15:12:01 INFO  TestBase:109 - [STEP 3] Clicking on 'Login' section
+2024-07-07 15:12:01 INFO  TestBase:109 - [STEP 4] Entering username
+2024-07-07 15:12:01 INFO  TestBase:109 - [STEP 5] Entering password
+2024-07-07 15:12:01 INFO  TestBase:109 - [STEP 6] Clicking on login button
+2024-07-07 15:12:01 INFO  TestBase:109 - [STEP 7] Verifying user is logged in
+2024-07-07 15:12:07 INFO  TestBase:109 - [STEP 8] Verifying 'Log out' button is visible
+2024-07-07 15:12:07 INFO  TestBase:118 - [TEST RESULT]: Login functionality test completed - PASSED
+2024-07-07 15:12:07 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:12:07 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:12:07 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:12:07 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:12:07 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:12:07 INFO  TestBase:57 - Setup done.
+2024-07-07 15:12:07 INFO  TestBase:109 - [STEP 1] Navigating to home page
+2024-07-07 15:12:09 INFO  TestBase:109 - [STEP 2] Clicking on 'Forms' tile
+2024-07-07 15:12:09 INFO  TestBase:109 - [STEP 3] Clicking on 'Practice Form' section
+2024-07-07 15:12:09 INFO  TestBase:109 - [STEP 4] Filling out multiple sections of the form
+2024-07-07 15:12:10 INFO  TestBase:109 - [STEP 5] Filling out Date of Birth
+2024-07-07 15:12:10 INFO  TestBase:109 - [STEP 6] Filling out Subjects
+2024-07-07 15:12:11 INFO  TestBase:109 - [STEP 7] Selecting Hobbies
+2024-07-07 15:12:11 INFO  TestBase:109 - [STEP 8] Uploading Picture
+2024-07-07 15:12:14 INFO  TestBase:109 - [STEP 9] Verifying form submission
+2024-07-07 15:12:14 INFO  TestBase:109 - [STEP 10] Verifying submission message
+2024-07-07 15:12:14 INFO  TestBase:118 - [TEST RESULT]: Multi-section form handling test completed - PASSED
+2024-07-07 15:12:14 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:12:15 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:12:15 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:12:15 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:12:15 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:12:15 INFO  TestBase:57 - Setup done.
+2024-07-07 15:12:15 INFO  TestBase:109 - [STEP 1] Navigating to home page
+2024-07-07 15:12:17 INFO  TestBase:109 - [STEP 2] Simulating network error
+2024-07-07 15:12:17 INFO  TestBase:109 - [STEP 3] Attempting to recover from network error
+2024-07-07 15:12:17 INFO  TestBase:109 - [STEP 4] Verifying page recovery
+2024-07-07 15:12:17 INFO  TestBase:118 - [TEST RESULT]: Network error handling test completed - PASSED
+2024-07-07 15:12:17 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:12:17 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:12:17 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:12:17 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:12:18 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:12:18 INFO  TestBase:57 - Setup done.
+2024-07-07 15:12:18 INFO  TestBase:109 - [STEP 1] Navigating to home page
+2024-07-07 15:12:20 INFO  TestBase:109 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 15:12:20 INFO  TestBase:109 - [STEP 3] Clicking on 'Links' section
+2024-07-07 15:12:20 INFO  TestBase:109 - [STEP 4] Scrolling to the bottom of the page
+2024-07-07 15:12:20 INFO  TestBase:109 - [STEP 5] Verifying the footer is visible
+2024-07-07 15:12:20 INFO  TestBase:118 - [TEST RESULT]: Scrolling functionality test completed - PASSED
+2024-07-07 15:12:20 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:12:20 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:12:20 INFO  TestBase:44 - Setup before the test has just started.
+2024-07-07 15:12:20 WARN  TestBase:94 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:12:21 INFO  TestBase:54 - Selenium UI setup completed.
+2024-07-07 15:12:21 INFO  TestBase:57 - Setup done.
+2024-07-07 15:12:21 INFO  TestBase:109 - [STEP 1] Navigating to home page
+2024-07-07 15:12:23 INFO  TestBase:109 - [STEP 2] Setting a session cookie
+2024-07-07 15:12:23 INFO  TestBase:109 - [STEP 3] Verifying the cookie is set correctly
+2024-07-07 15:12:23 INFO  TestBase:118 - [TEST RESULT]: Session and cookie handling test completed - PASSED
+2024-07-07 15:12:23 INFO  TestBase:62 - Cleaning up after test.
+2024-07-07 15:12:23 INFO  TestBase:67 - Cleanup done.
+2024-07-07 15:57:09 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:09 WARN  TestBase:96 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:57:11 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:57:11 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:11 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:11 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:11 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:11 WARN  TestBase:96 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:57:12 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:57:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:12 WARN  TestBase:96 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:57:13 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:57:13 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:13 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:13 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:13 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:13 WARN  TestBase:96 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:57:14 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:57:14 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:14 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:14 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:14 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:14 WARN  TestBase:96 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:57:15 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:57:15 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:15 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:15 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:15 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:15 WARN  TestBase:96 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:57:16 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:57:16 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:16 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:16 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:16 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:16 WARN  TestBase:96 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:57:17 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:57:17 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:17 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:17 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:17 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:17 WARN  TestBase:96 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:57:18 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:57:18 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:18 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:25 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:26 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:26 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:57:27 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:27 WARN  TestBase:96 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:57:29 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:57:29 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:29 INFO  TestBase:111 - [STEP 1] Navigating to home page
+2024-07-07 15:57:30 INFO  TestBase:111 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 15:57:31 INFO  TestBase:111 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 15:57:31 INFO  TestBase:111 - [STEP 4] Using JavaScript to perform double click
+2024-07-07 15:57:31 INFO  TestBase:111 - [STEP 5] Verifying JavaScript manipulation
+2024-07-07 15:57:31 INFO  TestBase:120 - [TEST RESULT]: Advanced JavaScript manipulations test completed - PASSED
+2024-07-07 15:57:31 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:31 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:31 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:31 WARN  TestBase:96 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:57:32 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:57:32 INFO  TestBase:58 - Setup done.
+2024-07-07 15:57:32 INFO  TestBase:111 - [STEP 1] Navigating to home page
+2024-07-07 15:57:33 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:57:33 INFO  TestBase:120 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 15:57:33 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:57:33 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:57:33 WARN  TestBase:96 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:59:11 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 15:59:12 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:12 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:12 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:12 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:12 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:59:14 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:59:14 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:14 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 15:59:16 INFO  TestBase:110 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 15:59:16 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:16 INFO  TestBase:119 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 15:59:17 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:17 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:17 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:59:17 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:59:17 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:17 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 15:59:18 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:18 INFO  TestBase:119 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 15:59:18 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:18 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:18 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:59:19 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:59:19 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:19 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 15:59:20 INFO  TestBase:110 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 15:59:20 INFO  TestBase:110 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 15:59:21 INFO  TestBase:110 - [STEP 4] Clicking on a button
+2024-07-07 15:59:21 INFO  TestBase:110 - [STEP 5] Verifying the button has been clicked
+2024-07-07 15:59:21 INFO  TestBase:119 - [TEST RESULT]: Button click test completed - PASSED
+2024-07-07 15:59:21 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:21 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:21 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:21 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:59:22 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:59:22 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:22 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 15:59:22 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:22 INFO  TestBase:119 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 15:59:22 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:22 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:22 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:59:23 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:59:23 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:23 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 15:59:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 15:59:23 INFO  TestBase:119 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 15:59:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 15:59:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 15:59:23 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 15:59:24 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 15:59:24 INFO  TestBase:58 - Setup done.
+2024-07-07 15:59:24 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 16:04:19 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:04:20 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:20 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:20 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:20 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:20 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:04:22 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 16:04:22 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:22 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 16:04:22 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:22 INFO  TestBase:119 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 16:04:22 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:22 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:22 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:04:23 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 16:04:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:23 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 16:04:24 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:24 INFO  TestBase:119 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 16:04:24 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:24 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:24 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:04:25 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 16:04:25 INFO  TestBase:58 - Setup done.
+2024-07-07 16:04:25 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 16:04:25 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:04:25 INFO  TestBase:119 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 16:04:25 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:04:25 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:04:25 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:05:21 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:22 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:22 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 INFO  TestBase:51 - RestAssured setup completed.
+2024-07-07 16:05:23 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:23 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:23 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:23 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:23 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:05:24 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 16:05:24 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:24 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 16:05:25 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:25 INFO  TestBase:119 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 16:05:25 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:25 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:25 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:05:26 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 16:05:26 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:26 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 16:05:26 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:26 INFO  TestBase:119 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 16:05:26 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:26 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:26 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:05:27 INFO  TestBase:55 - Selenium UI setup completed.
+2024-07-07 16:05:27 INFO  TestBase:58 - Setup done.
+2024-07-07 16:05:27 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 16:05:27 INFO  TestBase:63 - Cleaning up after test.
+2024-07-07 16:05:27 INFO  TestBase:119 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 16:05:27 INFO  TestBase:68 - Cleanup done.
+2024-07-07 16:05:27 INFO  TestBase:45 - Setup before the test has just started.
+2024-07-07 16:05:27 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:09:13 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:09:14 INFO  TestBase:87 - RestAssured setup complete with headers.
+2024-07-07 16:09:14 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:09:14 INFO  TestBase:59 - Setup done.
+2024-07-07 16:09:20 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:09:20 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:09:20 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:09:20 INFO  TestBase:87 - RestAssured setup complete with headers.
+2024-07-07 16:09:20 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:09:20 INFO  TestBase:59 - Setup done.
+2024-07-07 16:09:25 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:09:25 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:09:25 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:09:25 INFO  TestBase:87 - RestAssured setup complete with headers.
+2024-07-07 16:09:25 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:09:25 INFO  TestBase:59 - Setup done.
+2024-07-07 16:09:30 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:09:30 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:09:30 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:09:30 INFO  TestBase:87 - RestAssured setup complete with headers.
+2024-07-07 16:09:30 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:09:30 INFO  TestBase:59 - Setup done.
+2024-07-07 16:09:35 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:09:35 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:09:35 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:09:35 INFO  TestBase:87 - RestAssured setup complete with headers.
+2024-07-07 16:09:35 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:09:35 INFO  TestBase:59 - Setup done.
+2024-07-07 16:09:40 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:09:40 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:09:40 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:09:40 INFO  TestBase:87 - RestAssured setup complete with headers.
+2024-07-07 16:09:40 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:09:40 INFO  TestBase:59 - Setup done.
+2024-07-07 16:09:45 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:09:45 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:09:45 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:09:45 INFO  TestBase:87 - RestAssured setup complete with headers.
+2024-07-07 16:09:45 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:09:45 INFO  TestBase:59 - Setup done.
+2024-07-07 16:09:50 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:09:50 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:09:50 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:09:50 INFO  TestBase:87 - RestAssured setup complete with headers.
+2024-07-07 16:09:50 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:09:50 INFO  TestBase:59 - Setup done.
+2024-07-07 16:09:55 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:09:55 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:09:55 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:09:55 INFO  TestBase:87 - RestAssured setup complete with headers.
+2024-07-07 16:09:55 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:09:55 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:00 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:00 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:00 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:00 INFO  TestBase:87 - RestAssured setup complete with headers.
+2024-07-07 16:10:00 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:00 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:05 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:05 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:05 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:05 INFO  TestBase:87 - RestAssured setup complete with headers.
+2024-07-07 16:10:05 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:05 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:11 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:11 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:11 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:11 INFO  TestBase:87 - RestAssured setup complete with headers.
+2024-07-07 16:10:11 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:11 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:19 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:20 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:20 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:22 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:22 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:22 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:22 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:22 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:22 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:22 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:22 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:22 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:22 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:22 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:22 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:22 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:22 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:22 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:22 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:22 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:22 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:22 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:22 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:22 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:22 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:22 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:22 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:22 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:23 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:23 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:23 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:23 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:23 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:23 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:23 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:23 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:23 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:23 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:24 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:24 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:24 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:24 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:24 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:24 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:24 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:24 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:24 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:24 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:24 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:24 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:24 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:24 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:24 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:24 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:24 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:24 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:24 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:24 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:24 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:24 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:24 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:24 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:24 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:25 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:25 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:25 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:25 INFO  TestBase:52 - RestAssured setup completed.
+2024-07-07 16:10:25 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:28 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:28 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:28 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:28 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:10:29 INFO  TestBase:56 - Selenium UI setup completed.
+2024-07-07 16:10:29 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:29 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 16:10:31 INFO  TestBase:110 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:10:31 INFO  TestBase:110 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 16:10:31 INFO  TestBase:110 - [STEP 4] Using JavaScript to perform double click
+2024-07-07 16:10:31 INFO  TestBase:110 - [STEP 5] Verifying JavaScript manipulation
+2024-07-07 16:10:31 INFO  TestBase:119 - [TEST RESULT]: Advanced JavaScript manipulations test completed - PASSED
+2024-07-07 16:10:31 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:31 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:31 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:31 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:10:32 INFO  TestBase:56 - Selenium UI setup completed.
+2024-07-07 16:10:32 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:32 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 16:10:33 INFO  TestBase:110 - [STEP 2] Clicking on 'Alerts, Frame & Windows' tile
+2024-07-07 16:10:34 INFO  TestBase:110 - [STEP 3] Clicking on 'Alerts' section
+2024-07-07 16:10:34 INFO  TestBase:110 - [STEP 4] Triggering an alert
+2024-07-07 16:10:34 INFO  TestBase:110 - [STEP 5] Verifying alert was accepted
+2024-07-07 16:10:34 INFO  TestBase:119 - [TEST RESULT]: Alert functionality test completed - PASSED
+2024-07-07 16:10:34 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:34 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:34 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:34 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:10:35 INFO  TestBase:56 - Selenium UI setup completed.
+2024-07-07 16:10:35 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:35 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 16:10:36 INFO  TestBase:110 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:10:37 INFO  TestBase:110 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 16:10:37 INFO  TestBase:110 - [STEP 4] Clicking on a button
+2024-07-07 16:10:37 INFO  TestBase:110 - [STEP 5] Verifying the button has been clicked
+2024-07-07 16:10:37 INFO  TestBase:119 - [TEST RESULT]: Button click test completed - PASSED
+2024-07-07 16:10:37 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:37 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:37 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:37 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:10:38 INFO  TestBase:56 - Selenium UI setup completed.
+2024-07-07 16:10:38 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:38 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 16:10:40 INFO  TestBase:110 - [STEP 2] Clicking on 'Widgets' tile
+2024-07-07 16:10:40 INFO  TestBase:110 - [STEP 3] Clicking on 'Select Menu' section
+2024-07-07 16:10:40 INFO  TestBase:110 - [STEP 4] Selecting an option from dropdown
+2024-07-07 16:10:40 INFO  TestBase:110 - [STEP 5] Verifying the option is selected
+2024-07-07 16:10:40 INFO  TestBase:119 - [TEST RESULT]: Dropdown functionality test completed - PASSED
+2024-07-07 16:10:40 INFO  TestBase:64 - Cleaning up after test.
+2024-07-07 16:10:40 INFO  TestBase:69 - Cleanup done.
+2024-07-07 16:10:40 INFO  TestBase:46 - Setup before the test has just started.
+2024-07-07 16:10:40 WARN  TestBase:95 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:10:41 INFO  TestBase:56 - Selenium UI setup completed.
+2024-07-07 16:10:41 INFO  TestBase:59 - Setup done.
+2024-07-07 16:10:41 INFO  TestBase:110 - [STEP 1] Navigating to home page
+2024-07-07 16:10:43 INFO  TestBase:110 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:10:43 INFO  TestBase:110 - [STEP 3] Clicking on 'Dynamic Properties' section
+2024-07-07 16:10:43 INFO  TestBase:110 - [STEP 4] Waiting for dynamically loaded button to appear
+2024-07-07 16:32:52 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:52 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:52 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:52 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:52 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:52 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:52 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:52 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:52 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:52 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:52 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:52 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:52 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:52 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:52 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:52 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:53 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:53 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:53 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:53 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:53 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:53 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:53 INFO  TestBase:58 - RestAssured setup completed.
+2024-07-07 16:32:53 INFO  TestBase:67 - Setup done.
+2024-07-07 16:32:55 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:55 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:55 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:55 INFO  TestBase:58 - RestAssured setup completed.
+2024-07-07 16:32:55 INFO  TestBase:67 - Setup done.
+2024-07-07 16:32:55 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:55 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:55 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:55 INFO  TestBase:58 - RestAssured setup completed.
+2024-07-07 16:32:55 INFO  TestBase:67 - Setup done.
+2024-07-07 16:32:56 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:56 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:56 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:56 INFO  TestBase:58 - RestAssured setup completed.
+2024-07-07 16:32:56 INFO  TestBase:67 - Setup done.
+2024-07-07 16:32:56 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:56 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:56 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:56 INFO  TestBase:58 - RestAssured setup completed.
+2024-07-07 16:32:56 INFO  TestBase:67 - Setup done.
+2024-07-07 16:32:57 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:57 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:57 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:57 INFO  TestBase:58 - RestAssured setup completed.
+2024-07-07 16:32:57 INFO  TestBase:67 - Setup done.
+2024-07-07 16:32:57 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:57 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:57 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:57 INFO  TestBase:58 - RestAssured setup completed.
+2024-07-07 16:32:57 INFO  TestBase:67 - Setup done.
+2024-07-07 16:32:57 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:57 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:57 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:57 INFO  TestBase:58 - RestAssured setup completed.
+2024-07-07 16:32:57 INFO  TestBase:67 - Setup done.
+2024-07-07 16:32:58 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:58 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:58 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:58 INFO  TestBase:58 - RestAssured setup completed.
+2024-07-07 16:32:58 INFO  TestBase:67 - Setup done.
+2024-07-07 16:32:58 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:58 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:58 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:58 INFO  TestBase:58 - RestAssured setup completed.
+2024-07-07 16:32:58 INFO  TestBase:67 - Setup done.
+2024-07-07 16:32:58 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:58 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:32:58 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:32:58 INFO  TestBase:58 - RestAssured setup completed.
+2024-07-07 16:32:58 INFO  TestBase:67 - Setup done.
+2024-07-07 16:32:58 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:32:58 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:33:26 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:33:27 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:33:27 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:33:27 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:33:27 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:33:27 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:33:27 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:33:27 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:33:27 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:33:27 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:33:27 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:33:27 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:33:27 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:33:27 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:33:27 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:33:27 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:33:27 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:33:27 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:33:27 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:33:27 INFO  TestBase:72 - Cleaning up after test.
+2024-07-07 16:33:27 INFO  TestBase:77 - Cleanup done.
+2024-07-07 16:33:27 INFO  TestBase:51 - Setup before the test has just started.
+2024-07-07 16:33:28 INFO  TestBase:58 - RestAssured setup completed.
+2024-07-07 16:33:28 INFO  TestBase:67 - Setup done.
+2024-07-07 16:35:31 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:35:33 INFO  TestBase:92 - WireMock started on port: 58452
+2024-07-07 16:35:33 INFO  TestBase:68 - Setup done.
+2024-07-07 16:35:33 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:35:33 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:35:33 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:35:33 INFO  TestBase:92 - WireMock started on port: 58458
+2024-07-07 16:35:33 INFO  TestBase:68 - Setup done.
+2024-07-07 16:35:33 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:35:33 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:35:33 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:35:33 INFO  TestBase:92 - WireMock started on port: 58463
+2024-07-07 16:35:33 INFO  TestBase:68 - Setup done.
+2024-07-07 16:35:33 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:35:33 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:35:33 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:35:33 INFO  TestBase:92 - WireMock started on port: 58468
+2024-07-07 16:35:33 INFO  TestBase:68 - Setup done.
+2024-07-07 16:35:33 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:35:33 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:35:33 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:35:33 INFO  TestBase:92 - WireMock started on port: 58473
+2024-07-07 16:35:33 INFO  TestBase:68 - Setup done.
+2024-07-07 16:35:33 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:35:33 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:35:33 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:35:33 INFO  TestBase:92 - WireMock started on port: 58478
+2024-07-07 16:35:33 INFO  TestBase:68 - Setup done.
+2024-07-07 16:35:33 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:35:33 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:35:33 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:35:33 INFO  TestBase:92 - WireMock started on port: 58483
+2024-07-07 16:35:33 INFO  TestBase:68 - Setup done.
+2024-07-07 16:35:33 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:35:33 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:35:33 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:35:33 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:35:33 INFO  TestBase:68 - Setup done.
+2024-07-07 16:35:34 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:35:34 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:35:34 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:35:34 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:35:34 INFO  TestBase:68 - Setup done.
+2024-07-07 16:35:35 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:35:35 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:35:35 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:35:35 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:35:35 INFO  TestBase:68 - Setup done.
+2024-07-07 16:39:25 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:39:27 INFO  TestBase:92 - WireMock started on port: 58580
+2024-07-07 16:39:27 INFO  TestBase:68 - Setup done.
+2024-07-07 16:39:28 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:39:28 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:39:28 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:39:28 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:39:28 INFO  TestBase:68 - Setup done.
+2024-07-07 16:39:29 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:39:29 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:39:29 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:39:29 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:39:29 INFO  TestBase:68 - Setup done.
+2024-07-07 16:39:29 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:39:29 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:39:29 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:39:29 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:39:29 INFO  TestBase:68 - Setup done.
+2024-07-07 16:39:29 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:39:29 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:39:29 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:39:29 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:39:29 INFO  TestBase:68 - Setup done.
+2024-07-07 16:39:29 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:39:29 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:39:29 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:39:29 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:39:29 INFO  TestBase:68 - Setup done.
+2024-07-07 16:39:30 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:39:30 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:39:30 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:39:30 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:39:30 INFO  TestBase:68 - Setup done.
+2024-07-07 16:40:47 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:40:49 INFO  TestBase:92 - WireMock started on port: 58675
+2024-07-07 16:40:49 INFO  TestBase:68 - Setup done.
+2024-07-07 16:40:50 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:40:50 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:40:50 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:40:50 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:40:50 INFO  TestBase:68 - Setup done.
+2024-07-07 16:40:50 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:40:50 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:40:50 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:40:50 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:40:50 INFO  TestBase:68 - Setup done.
+2024-07-07 16:40:51 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:40:51 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:40:51 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:40:51 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:40:51 INFO  TestBase:68 - Setup done.
+2024-07-07 16:40:51 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:40:51 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:40:51 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:40:51 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:40:51 INFO  TestBase:68 - Setup done.
+2024-07-07 16:40:51 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:40:51 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:40:51 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:40:51 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:40:51 INFO  TestBase:68 - Setup done.
+2024-07-07 16:40:51 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:40:51 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:40:51 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:40:51 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:40:51 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:24 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:26 INFO  TestBase:98 - WireMock started on port: 58833
+2024-07-07 16:44:26 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:27 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:27 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:27 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:27 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:44:27 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:28 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:28 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:28 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:28 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:44:28 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:28 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:28 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:28 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:28 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:44:28 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:28 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:28 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:28 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:28 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:44:28 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:28 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:28 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:28 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:28 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:44:28 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:29 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:29 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:29 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:29 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:44:29 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:29 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:29 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:29 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:29 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:44:29 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:30 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:30 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:30 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:30 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:44:30 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:30 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:30 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:30 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:30 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:44:30 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:30 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:30 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:30 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:30 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:44:30 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:31 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:31 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:31 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:31 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:44:31 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:31 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:31 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:31 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:31 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:44:31 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:34 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:34 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:34 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:34 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:44:35 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:44:35 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:35 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:44:37 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:37 INFO  TestBase:142 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 16:44:37 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:37 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:37 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:44:38 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:44:38 INFO  TestBase:68 - Setup done.
+2024-07-07 16:44:38 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:44:39 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:44:39 INFO  TestBase:142 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 16:44:39 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:44:39 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:44:39 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:47:39 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:47:40 INFO  TestBase:98 - WireMock started on port: 59122
+2024-07-07 16:47:40 INFO  TestBase:68 - Setup done.
+2024-07-07 16:47:42 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:47:42 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:47:42 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:47:42 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:47:42 INFO  TestBase:68 - Setup done.
+2024-07-07 16:47:42 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:47:42 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:47:42 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:47:42 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:47:42 INFO  TestBase:68 - Setup done.
+2024-07-07 16:47:43 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:47:43 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:47:43 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:47:43 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:47:43 INFO  TestBase:68 - Setup done.
+2024-07-07 16:47:43 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:47:43 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:47:43 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:47:43 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:47:43 INFO  TestBase:68 - Setup done.
+2024-07-07 16:47:43 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:47:43 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:47:43 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:47:43 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:47:43 INFO  TestBase:68 - Setup done.
+2024-07-07 16:47:44 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:47:44 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:47:44 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:47:44 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:47:44 INFO  TestBase:68 - Setup done.
+2024-07-07 16:47:44 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:47:44 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:47:44 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:47:44 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:47:44 INFO  TestBase:68 - Setup done.
+2024-07-07 16:52:43 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:52:45 INFO  TestBase:98 - WireMock started on port: 59230
+2024-07-07 16:52:45 INFO  TestBase:68 - Setup done.
+2024-07-07 16:52:46 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:52:46 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:52:46 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:52:46 INFO  TestBase:98 - WireMock started on port: 59236
+2024-07-07 16:52:46 INFO  TestBase:68 - Setup done.
+2024-07-07 16:52:46 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:52:46 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:52:46 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:52:46 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:52:46 INFO  TestBase:68 - Setup done.
+2024-07-07 16:52:47 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:52:47 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:52:47 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:52:47 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:52:47 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:39 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:40 INFO  TestBase:98 - WireMock started on port: 59323
+2024-07-07 16:54:40 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:42 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:42 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:42 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:42 INFO  TestBase:98 - WireMock started on port: 59330
+2024-07-07 16:54:42 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:42 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:42 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:42 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:42 INFO  TestBase:98 - WireMock started on port: 59336
+2024-07-07 16:54:42 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:42 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:42 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:42 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:42 INFO  TestBase:98 - WireMock started on port: 59342
+2024-07-07 16:54:42 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:42 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:42 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:42 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:42 INFO  TestBase:98 - WireMock started on port: 59348
+2024-07-07 16:54:42 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:47 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:47 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:47 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:47 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:54:47 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:48 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:48 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:48 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:48 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:54:48 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:48 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:48 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:48 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:48 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:54:48 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:48 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:48 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:48 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:48 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:54:48 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:48 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:48 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:48 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:48 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:54:48 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:49 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:49 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:49 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:49 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:54:49 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:49 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:49 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:49 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:49 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:54:49 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:49 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:49 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:49 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:49 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:54:49 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:49 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:49 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:49 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:49 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:54:49 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:49 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:49 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:49 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:49 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:54:49 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:50 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:50 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:50 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:50 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:54:50 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:50 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:50 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:50 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:50 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:54:50 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:53 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:53 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:53 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:53 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:54:54 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:54:54 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:54 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:54:55 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:54:56 INFO  TestBase:133 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 16:54:56 INFO  TestBase:133 - [STEP 4] Using JavaScript to perform double click
+2024-07-07 16:54:56 INFO  TestBase:133 - [STEP 5] Verifying JavaScript manipulation
+2024-07-07 16:54:56 INFO  TestBase:142 - [TEST RESULT]: Advanced JavaScript manipulations test completed - PASSED
+2024-07-07 16:54:56 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:56 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:56 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:56 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:54:57 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:54:57 INFO  TestBase:68 - Setup done.
+2024-07-07 16:54:57 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:54:58 INFO  TestBase:133 - [STEP 2] Clicking on 'Alerts, Frame & Windows' tile
+2024-07-07 16:54:58 INFO  TestBase:133 - [STEP 3] Clicking on 'Alerts' section
+2024-07-07 16:54:59 INFO  TestBase:133 - [STEP 4] Triggering an alert
+2024-07-07 16:54:59 INFO  TestBase:133 - [STEP 5] Verifying alert was accepted
+2024-07-07 16:54:59 INFO  TestBase:142 - [TEST RESULT]: Alert functionality test completed - PASSED
+2024-07-07 16:54:59 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:54:59 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:54:59 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:54:59 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:55:00 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:55:00 INFO  TestBase:68 - Setup done.
+2024-07-07 16:55:00 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:55:01 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:55:01 INFO  TestBase:133 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 16:55:01 INFO  TestBase:133 - [STEP 4] Clicking on a button
+2024-07-07 16:55:01 INFO  TestBase:133 - [STEP 5] Verifying the button has been clicked
+2024-07-07 16:55:01 INFO  TestBase:142 - [TEST RESULT]: Button click test completed - PASSED
+2024-07-07 16:55:01 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:55:01 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:55:01 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:55:01 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:55:02 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:55:02 INFO  TestBase:68 - Setup done.
+2024-07-07 16:55:02 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:55:04 INFO  TestBase:133 - [STEP 2] Clicking on 'Widgets' tile
+2024-07-07 16:55:04 INFO  TestBase:133 - [STEP 3] Clicking on 'Select Menu' section
+2024-07-07 16:55:04 INFO  TestBase:133 - [STEP 4] Selecting an option from dropdown
+2024-07-07 16:55:04 INFO  TestBase:133 - [STEP 5] Verifying the option is selected
+2024-07-07 16:55:04 INFO  TestBase:142 - [TEST RESULT]: Dropdown functionality test completed - PASSED
+2024-07-07 16:55:04 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:55:04 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:55:04 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:55:04 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:55:05 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:55:05 INFO  TestBase:68 - Setup done.
+2024-07-07 16:55:05 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:55:07 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:55:08 INFO  TestBase:133 - [STEP 3] Clicking on 'Dynamic Properties' section
+2024-07-07 16:55:08 INFO  TestBase:133 - [STEP 4] Waiting for dynamically loaded button to appear
+2024-07-07 16:55:13 INFO  TestBase:133 - [STEP 5] Clicking on the dynamically loaded button
+2024-07-07 16:55:13 INFO  TestBase:133 - [STEP 6] Verifying button click
+2024-07-07 16:55:13 INFO  TestBase:142 - [TEST RESULT]: Dynamic loads handling test completed - PASSED
+2024-07-07 16:55:13 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:55:13 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:55:13 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:55:13 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:55:14 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:55:14 INFO  TestBase:68 - Setup done.
+2024-07-07 16:55:14 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:55:16 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:55:16 INFO  TestBase:133 - [STEP 3] Clicking on 'Web Tables' section
+2024-07-07 16:55:16 INFO  TestBase:133 - [STEP 4] Adding a new record to the table
+2024-07-07 16:55:17 INFO  TestBase:133 - [STEP 5] Verifying record addition
+2024-07-07 16:55:17 INFO  TestBase:142 - [TEST RESULT]: Interactive table functionality test completed - PASSED
+2024-07-07 16:55:17 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:55:17 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:55:17 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:55:17 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:55:18 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:55:18 INFO  TestBase:68 - Setup done.
+2024-07-07 16:55:18 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:55:20 INFO  TestBase:133 - [STEP 2] Clicking on 'Book Store Application' tile
+2024-07-07 16:55:20 INFO  TestBase:133 - [STEP 3] Clicking on 'Login' section
+2024-07-07 16:55:20 INFO  TestBase:133 - [STEP 4] Entering username
+2024-07-07 16:55:21 INFO  TestBase:133 - [STEP 5] Entering password
+2024-07-07 16:55:21 INFO  TestBase:133 - [STEP 6] Clicking on login button
+2024-07-07 16:55:21 INFO  TestBase:133 - [STEP 7] Verifying user is logged in
+2024-07-07 16:55:26 INFO  TestBase:133 - [STEP 8] Verifying 'Log out' button is visible
+2024-07-07 16:55:26 INFO  TestBase:142 - [TEST RESULT]: Login functionality test completed - PASSED
+2024-07-07 16:55:26 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:55:26 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:55:26 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:55:26 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:55:27 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:55:27 INFO  TestBase:68 - Setup done.
+2024-07-07 16:55:27 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:55:28 INFO  TestBase:133 - [STEP 2] Clicking on 'Forms' tile
+2024-07-07 16:55:28 INFO  TestBase:133 - [STEP 3] Clicking on 'Practice Form' section
+2024-07-07 16:55:29 INFO  TestBase:133 - [STEP 4] Filling out multiple sections of the form
+2024-07-07 16:55:29 INFO  TestBase:133 - [STEP 5] Filling out Date of Birth
+2024-07-07 16:55:29 INFO  TestBase:133 - [STEP 6] Filling out Subjects
+2024-07-07 16:55:30 INFO  TestBase:133 - [STEP 7] Selecting Hobbies
+2024-07-07 16:55:30 INFO  TestBase:133 - [STEP 8] Uploading Picture
+2024-07-07 16:55:33 INFO  TestBase:133 - [STEP 9] Verifying form submission
+2024-07-07 16:55:33 INFO  TestBase:133 - [STEP 10] Verifying submission message
+2024-07-07 16:55:33 INFO  TestBase:142 - [TEST RESULT]: Multi-section form handling test completed - PASSED
+2024-07-07 16:55:33 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:55:33 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:55:33 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:55:33 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:55:34 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:55:34 INFO  TestBase:68 - Setup done.
+2024-07-07 16:55:34 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:55:36 INFO  TestBase:133 - [STEP 2] Simulating network error
+2024-07-07 16:55:36 INFO  TestBase:133 - [STEP 3] Attempting to recover from network error
+2024-07-07 16:55:36 INFO  TestBase:133 - [STEP 4] Verifying page recovery
+2024-07-07 16:55:36 INFO  TestBase:142 - [TEST RESULT]: Network error handling test completed - PASSED
+2024-07-07 16:55:36 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:55:36 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:55:36 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:55:36 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:55:37 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:55:37 INFO  TestBase:68 - Setup done.
+2024-07-07 16:55:37 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:55:39 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:55:39 INFO  TestBase:133 - [STEP 3] Clicking on 'Links' section
+2024-07-07 16:55:39 INFO  TestBase:133 - [STEP 4] Scrolling to the bottom of the page
+2024-07-07 16:55:39 INFO  TestBase:133 - [STEP 5] Verifying the footer is visible
+2024-07-07 16:55:39 INFO  TestBase:142 - [TEST RESULT]: Scrolling functionality test completed - PASSED
+2024-07-07 16:55:39 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:55:39 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:55:39 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:55:39 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:55:40 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:55:40 INFO  TestBase:68 - Setup done.
+2024-07-07 16:55:40 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:55:42 INFO  TestBase:133 - [STEP 2] Setting a session cookie
+2024-07-07 16:55:42 INFO  TestBase:133 - [STEP 3] Verifying the cookie is set correctly
+2024-07-07 16:55:42 INFO  TestBase:142 - [TEST RESULT]: Session and cookie handling test completed - PASSED
+2024-07-07 16:55:42 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:55:42 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:47 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:49 INFO  TestBase:98 - WireMock started on port: 60306
+2024-07-07 16:57:49 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:50 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:50 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:50 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:50 INFO  TestBase:98 - WireMock started on port: 60308
+2024-07-07 16:57:50 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:50 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:50 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:50 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:50 INFO  TestBase:98 - WireMock started on port: 60310
+2024-07-07 16:57:50 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:51 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:51 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:51 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:51 INFO  TestBase:98 - WireMock started on port: 60312
+2024-07-07 16:57:51 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:51 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:51 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:51 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:51 INFO  TestBase:98 - WireMock started on port: 60314
+2024-07-07 16:57:51 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:56 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:56 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:56 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:56 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:57:56 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:56 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:56 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:56 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:56 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:57:56 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:57 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:57 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:57 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:57 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:57:57 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:57 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:57 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:57 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:57 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:57:57 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:57 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:57 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:57 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:57 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:57:57 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:58 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:58 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:58 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:58 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:57:58 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:58 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:58 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:58 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:58 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:57:58 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:58 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:58 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:58 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:58 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:57:58 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:58 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:58 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:58 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:58 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:57:58 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:58 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:58 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:58 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:58 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:57:58 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:59 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:59 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:59 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:59 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:57:59 INFO  TestBase:68 - Setup done.
+2024-07-07 16:57:59 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:57:59 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:57:59 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:57:59 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 16:57:59 INFO  TestBase:68 - Setup done.
+2024-07-07 16:58:01 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:58:01 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:58:01 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:58:01 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:58:02 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:58:02 INFO  TestBase:68 - Setup done.
+2024-07-07 16:58:02 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:58:03 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:58:04 INFO  TestBase:133 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 16:58:04 INFO  TestBase:133 - [STEP 4] Using JavaScript to perform double click
+2024-07-07 16:58:04 INFO  TestBase:133 - [STEP 5] Verifying JavaScript manipulation
+2024-07-07 16:58:04 INFO  TestBase:142 - [TEST RESULT]: Advanced JavaScript manipulations test completed - PASSED
+2024-07-07 16:58:04 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:58:04 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:58:04 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:58:04 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:58:05 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:58:05 INFO  TestBase:68 - Setup done.
+2024-07-07 16:58:05 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:58:11 INFO  TestBase:133 - [STEP 2] Clicking on 'Alerts, Frame & Windows' tile
+2024-07-07 16:58:12 INFO  TestBase:133 - [STEP 3] Clicking on 'Alerts' section
+2024-07-07 16:58:12 INFO  TestBase:133 - [STEP 4] Triggering an alert
+2024-07-07 16:58:12 INFO  TestBase:133 - [STEP 5] Verifying alert was accepted
+2024-07-07 16:58:12 INFO  TestBase:142 - [TEST RESULT]: Alert functionality test completed - PASSED
+2024-07-07 16:58:12 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:58:12 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:58:12 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:58:12 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:58:13 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:58:13 INFO  TestBase:68 - Setup done.
+2024-07-07 16:58:13 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:58:14 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:58:14 INFO  TestBase:133 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 16:58:14 INFO  TestBase:133 - [STEP 4] Clicking on a button
+2024-07-07 16:58:14 INFO  TestBase:133 - [STEP 5] Verifying the button has been clicked
+2024-07-07 16:58:14 INFO  TestBase:142 - [TEST RESULT]: Button click test completed - PASSED
+2024-07-07 16:58:14 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:58:15 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:58:15 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:58:15 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:58:16 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:58:16 INFO  TestBase:68 - Setup done.
+2024-07-07 16:58:16 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:58:17 INFO  TestBase:133 - [STEP 2] Clicking on 'Widgets' tile
+2024-07-07 16:58:18 INFO  TestBase:133 - [STEP 3] Clicking on 'Select Menu' section
+2024-07-07 16:58:18 INFO  TestBase:133 - [STEP 4] Selecting an option from dropdown
+2024-07-07 16:58:18 INFO  TestBase:133 - [STEP 5] Verifying the option is selected
+2024-07-07 16:58:18 INFO  TestBase:142 - [TEST RESULT]: Dropdown functionality test completed - PASSED
+2024-07-07 16:58:18 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:58:18 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:58:18 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:58:18 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:58:19 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:58:19 INFO  TestBase:68 - Setup done.
+2024-07-07 16:58:19 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:58:21 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:58:21 INFO  TestBase:133 - [STEP 3] Clicking on 'Dynamic Properties' section
+2024-07-07 16:58:21 INFO  TestBase:133 - [STEP 4] Waiting for dynamically loaded button to appear
+2024-07-07 16:58:26 INFO  TestBase:133 - [STEP 5] Clicking on the dynamically loaded button
+2024-07-07 16:58:26 INFO  TestBase:133 - [STEP 6] Verifying button click
+2024-07-07 16:58:26 INFO  TestBase:142 - [TEST RESULT]: Dynamic loads handling test completed - PASSED
+2024-07-07 16:58:26 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:58:27 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:58:27 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:58:27 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:58:27 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:58:27 INFO  TestBase:68 - Setup done.
+2024-07-07 16:58:27 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:58:29 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:58:29 INFO  TestBase:133 - [STEP 3] Clicking on 'Web Tables' section
+2024-07-07 16:58:29 INFO  TestBase:133 - [STEP 4] Adding a new record to the table
+2024-07-07 16:58:30 INFO  TestBase:133 - [STEP 5] Verifying record addition
+2024-07-07 16:58:30 INFO  TestBase:142 - [TEST RESULT]: Interactive table functionality test completed - PASSED
+2024-07-07 16:58:30 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:58:30 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:58:30 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:58:30 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:58:31 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:58:31 INFO  TestBase:68 - Setup done.
+2024-07-07 16:58:31 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:58:33 INFO  TestBase:133 - [STEP 2] Clicking on 'Book Store Application' tile
+2024-07-07 16:58:33 INFO  TestBase:133 - [STEP 3] Clicking on 'Login' section
+2024-07-07 16:58:34 INFO  TestBase:133 - [STEP 4] Entering username
+2024-07-07 16:58:34 INFO  TestBase:133 - [STEP 5] Entering password
+2024-07-07 16:58:34 INFO  TestBase:133 - [STEP 6] Clicking on login button
+2024-07-07 16:58:34 INFO  TestBase:133 - [STEP 7] Verifying user is logged in
+2024-07-07 16:58:39 INFO  TestBase:133 - [STEP 8] Verifying 'Log out' button is visible
+2024-07-07 16:58:39 INFO  TestBase:142 - [TEST RESULT]: Login functionality test completed - PASSED
+2024-07-07 16:58:39 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:58:39 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:58:39 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:58:39 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:58:40 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:58:40 INFO  TestBase:68 - Setup done.
+2024-07-07 16:58:40 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:58:42 INFO  TestBase:133 - [STEP 2] Clicking on 'Forms' tile
+2024-07-07 16:58:42 INFO  TestBase:133 - [STEP 3] Clicking on 'Practice Form' section
+2024-07-07 16:58:42 INFO  TestBase:133 - [STEP 4] Filling out multiple sections of the form
+2024-07-07 16:58:43 INFO  TestBase:133 - [STEP 5] Filling out Date of Birth
+2024-07-07 16:58:43 INFO  TestBase:133 - [STEP 6] Filling out Subjects
+2024-07-07 16:58:43 INFO  TestBase:133 - [STEP 7] Selecting Hobbies
+2024-07-07 16:58:43 INFO  TestBase:133 - [STEP 8] Uploading Picture
+2024-07-07 16:58:47 INFO  TestBase:133 - [STEP 9] Verifying form submission
+2024-07-07 16:58:47 INFO  TestBase:133 - [STEP 10] Verifying submission message
+2024-07-07 16:58:47 INFO  TestBase:142 - [TEST RESULT]: Multi-section form handling test completed - PASSED
+2024-07-07 16:58:47 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:58:47 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:58:47 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:58:47 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:58:47 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:58:47 INFO  TestBase:68 - Setup done.
+2024-07-07 16:58:47 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:58:49 INFO  TestBase:133 - [STEP 2] Simulating network error
+2024-07-07 16:58:49 INFO  TestBase:133 - [STEP 3] Attempting to recover from network error
+2024-07-07 16:58:49 INFO  TestBase:133 - [STEP 4] Verifying page recovery
+2024-07-07 16:58:49 INFO  TestBase:142 - [TEST RESULT]: Network error handling test completed - PASSED
+2024-07-07 16:58:49 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:58:49 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:58:49 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:58:49 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:58:50 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:58:50 INFO  TestBase:68 - Setup done.
+2024-07-07 16:58:50 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:58:52 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 16:58:52 INFO  TestBase:133 - [STEP 3] Clicking on 'Links' section
+2024-07-07 16:58:52 INFO  TestBase:133 - [STEP 4] Scrolling to the bottom of the page
+2024-07-07 16:58:52 INFO  TestBase:133 - [STEP 5] Verifying the footer is visible
+2024-07-07 16:58:52 INFO  TestBase:142 - [TEST RESULT]: Scrolling functionality test completed - PASSED
+2024-07-07 16:58:52 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:58:52 INFO  TestBase:78 - Cleanup done.
+2024-07-07 16:58:52 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 16:58:52 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 16:58:53 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 16:58:53 INFO  TestBase:68 - Setup done.
+2024-07-07 16:58:53 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 16:58:55 INFO  TestBase:133 - [STEP 2] Setting a session cookie
+2024-07-07 16:58:55 INFO  TestBase:133 - [STEP 3] Verifying the cookie is set correctly
+2024-07-07 16:58:55 INFO  TestBase:142 - [TEST RESULT]: Session and cookie handling test completed - PASSED
+2024-07-07 16:58:55 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 16:58:56 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:00:48 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:00:50 INFO  TestBase:98 - WireMock started on port: 61407
+2024-07-07 17:00:50 INFO  TestBase:68 - Setup done.
+2024-07-07 17:00:53 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:00:53 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:00:53 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:00:53 INFO  TestBase:98 - WireMock started on port: 61409
+2024-07-07 17:00:53 INFO  TestBase:68 - Setup done.
+2024-07-07 17:00:53 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:00:53 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:00:53 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:00:53 INFO  TestBase:98 - WireMock started on port: 61411
+2024-07-07 17:00:53 INFO  TestBase:68 - Setup done.
+2024-07-07 17:00:53 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:00:53 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:00:53 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:00:53 INFO  TestBase:98 - WireMock started on port: 61413
+2024-07-07 17:00:53 INFO  TestBase:68 - Setup done.
+2024-07-07 17:00:53 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:00:53 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:00:53 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:00:53 INFO  TestBase:98 - WireMock started on port: 61415
+2024-07-07 17:00:53 INFO  TestBase:68 - Setup done.
+2024-07-07 17:00:58 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:00:58 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:00:58 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:00:58 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 17:00:58 INFO  TestBase:68 - Setup done.
+2024-07-07 17:00:59 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:00:59 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:00:59 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:00:59 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 17:00:59 INFO  TestBase:68 - Setup done.
+2024-07-07 17:00:59 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:00:59 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:00:59 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:00:59 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 17:00:59 INFO  TestBase:68 - Setup done.
+2024-07-07 17:00:59 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:00:59 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:00:59 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:00:59 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 17:00:59 INFO  TestBase:68 - Setup done.
+2024-07-07 17:00:59 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:00:59 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:00:59 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:00:59 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 17:00:59 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:00 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:00 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:00 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:00 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 17:01:00 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:00 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:00 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:00 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:00 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 17:01:00 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:00 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:00 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:00 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:00 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 17:01:00 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:00 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:00 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:00 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:00 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 17:01:00 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:00 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:00 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:00 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:00 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 17:01:00 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:00 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:00 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:00 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:00 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 17:01:00 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:01 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:01 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:01 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:01 INFO  TestBase:59 - RestAssured setup completed.
+2024-07-07 17:01:01 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:02 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:02 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:02 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:02 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 17:01:04 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 17:01:04 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:04 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 17:01:05 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 17:01:06 INFO  TestBase:133 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 17:01:06 INFO  TestBase:133 - [STEP 4] Using JavaScript to perform double click
+2024-07-07 17:01:06 INFO  TestBase:133 - [STEP 5] Verifying JavaScript manipulation
+2024-07-07 17:01:06 INFO  TestBase:142 - [TEST RESULT]: Advanced JavaScript manipulations test completed - PASSED
+2024-07-07 17:01:06 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:06 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:06 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:06 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 17:01:07 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 17:01:07 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:07 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 17:01:09 INFO  TestBase:133 - [STEP 2] Clicking on 'Alerts, Frame & Windows' tile
+2024-07-07 17:01:09 INFO  TestBase:133 - [STEP 3] Clicking on 'Alerts' section
+2024-07-07 17:01:09 INFO  TestBase:133 - [STEP 4] Triggering an alert
+2024-07-07 17:01:09 INFO  TestBase:133 - [STEP 5] Verifying alert was accepted
+2024-07-07 17:01:09 INFO  TestBase:142 - [TEST RESULT]: Alert functionality test completed - PASSED
+2024-07-07 17:01:09 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:09 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:09 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:09 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 17:01:10 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 17:01:10 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:10 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 17:01:12 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 17:01:12 INFO  TestBase:133 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 17:01:12 INFO  TestBase:133 - [STEP 4] Clicking on a button
+2024-07-07 17:01:12 INFO  TestBase:133 - [STEP 5] Verifying the button has been clicked
+2024-07-07 17:01:13 INFO  TestBase:142 - [TEST RESULT]: Button click test completed - PASSED
+2024-07-07 17:01:13 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:13 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:13 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:13 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 17:01:14 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 17:01:14 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:14 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 17:01:16 INFO  TestBase:133 - [STEP 2] Clicking on 'Widgets' tile
+2024-07-07 17:01:16 INFO  TestBase:133 - [STEP 3] Clicking on 'Select Menu' section
+2024-07-07 17:01:16 INFO  TestBase:133 - [STEP 4] Selecting an option from dropdown
+2024-07-07 17:01:16 INFO  TestBase:133 - [STEP 5] Verifying the option is selected
+2024-07-07 17:01:16 INFO  TestBase:142 - [TEST RESULT]: Dropdown functionality test completed - PASSED
+2024-07-07 17:01:16 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:16 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:16 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:16 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 17:01:17 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 17:01:17 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:17 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 17:01:19 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 17:01:19 INFO  TestBase:133 - [STEP 3] Clicking on 'Dynamic Properties' section
+2024-07-07 17:01:19 INFO  TestBase:133 - [STEP 4] Waiting for dynamically loaded button to appear
+2024-07-07 17:01:24 INFO  TestBase:133 - [STEP 5] Clicking on the dynamically loaded button
+2024-07-07 17:01:25 INFO  TestBase:133 - [STEP 6] Verifying button click
+2024-07-07 17:01:25 INFO  TestBase:142 - [TEST RESULT]: Dynamic loads handling test completed - PASSED
+2024-07-07 17:01:25 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:25 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:25 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:25 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 17:01:25 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 17:01:25 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:25 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 17:01:27 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 17:01:27 INFO  TestBase:133 - [STEP 3] Clicking on 'Web Tables' section
+2024-07-07 17:01:27 INFO  TestBase:133 - [STEP 4] Adding a new record to the table
+2024-07-07 17:01:28 INFO  TestBase:133 - [STEP 5] Verifying record addition
+2024-07-07 17:01:28 INFO  TestBase:142 - [TEST RESULT]: Interactive table functionality test completed - PASSED
+2024-07-07 17:01:28 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:28 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:28 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:28 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 17:01:29 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 17:01:29 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:29 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 17:01:31 INFO  TestBase:133 - [STEP 2] Clicking on 'Book Store Application' tile
+2024-07-07 17:01:31 INFO  TestBase:133 - [STEP 3] Clicking on 'Login' section
+2024-07-07 17:01:31 INFO  TestBase:133 - [STEP 4] Entering username
+2024-07-07 17:01:31 INFO  TestBase:133 - [STEP 5] Entering password
+2024-07-07 17:01:31 INFO  TestBase:133 - [STEP 6] Clicking on login button
+2024-07-07 17:01:31 INFO  TestBase:133 - [STEP 7] Verifying user is logged in
+2024-07-07 17:01:37 INFO  TestBase:133 - [STEP 8] Verifying 'Log out' button is visible
+2024-07-07 17:01:37 INFO  TestBase:142 - [TEST RESULT]: Login functionality test completed - PASSED
+2024-07-07 17:01:37 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:37 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:37 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:37 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 17:01:37 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 17:01:37 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:37 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 17:01:39 INFO  TestBase:133 - [STEP 2] Clicking on 'Forms' tile
+2024-07-07 17:01:39 INFO  TestBase:133 - [STEP 3] Clicking on 'Practice Form' section
+2024-07-07 17:01:39 INFO  TestBase:133 - [STEP 4] Filling out multiple sections of the form
+2024-07-07 17:01:40 INFO  TestBase:133 - [STEP 5] Filling out Date of Birth
+2024-07-07 17:01:40 INFO  TestBase:133 - [STEP 6] Filling out Subjects
+2024-07-07 17:01:40 INFO  TestBase:133 - [STEP 7] Selecting Hobbies
+2024-07-07 17:01:40 INFO  TestBase:133 - [STEP 8] Uploading Picture
+2024-07-07 17:01:43 INFO  TestBase:133 - [STEP 9] Verifying form submission
+2024-07-07 17:01:44 INFO  TestBase:133 - [STEP 10] Verifying submission message
+2024-07-07 17:01:44 INFO  TestBase:142 - [TEST RESULT]: Multi-section form handling test completed - PASSED
+2024-07-07 17:01:44 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:44 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:44 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:44 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 17:01:44 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 17:01:44 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:44 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 17:01:46 INFO  TestBase:133 - [STEP 2] Simulating network error
+2024-07-07 17:01:46 INFO  TestBase:133 - [STEP 3] Attempting to recover from network error
+2024-07-07 17:01:46 INFO  TestBase:133 - [STEP 4] Verifying page recovery
+2024-07-07 17:01:46 INFO  TestBase:142 - [TEST RESULT]: Network error handling test completed - PASSED
+2024-07-07 17:01:46 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:46 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:46 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:46 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 17:01:47 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 17:01:47 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:47 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 17:01:49 INFO  TestBase:133 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 17:01:49 INFO  TestBase:133 - [STEP 3] Clicking on 'Links' section
+2024-07-07 17:01:49 INFO  TestBase:133 - [STEP 4] Scrolling to the bottom of the page
+2024-07-07 17:01:49 INFO  TestBase:133 - [STEP 5] Verifying the footer is visible
+2024-07-07 17:01:49 INFO  TestBase:142 - [TEST RESULT]: Scrolling functionality test completed - PASSED
+2024-07-07 17:01:49 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:49 INFO  TestBase:78 - Cleanup done.
+2024-07-07 17:01:49 INFO  TestBase:52 - Setup before the test has just started.
+2024-07-07 17:01:49 WARN  TestBase:118 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 17:01:50 INFO  TestBase:65 - Selenium UI setup completed.
+2024-07-07 17:01:50 INFO  TestBase:68 - Setup done.
+2024-07-07 17:01:50 INFO  TestBase:133 - [STEP 1] Navigating to home page
+2024-07-07 17:01:52 INFO  TestBase:133 - [STEP 2] Setting a session cookie
+2024-07-07 17:01:52 INFO  TestBase:133 - [STEP 3] Verifying the cookie is set correctly
+2024-07-07 17:01:52 INFO  TestBase:142 - [TEST RESULT]: Session and cookie handling test completed - PASSED
+2024-07-07 17:01:52 INFO  TestBase:73 - Cleaning up after test.
+2024-07-07 17:01:52 INFO  TestBase:78 - Cleanup done.
