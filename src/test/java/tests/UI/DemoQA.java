@@ -25,7 +25,7 @@ public class DemoQA extends TestBase {
             seleniumElementsHelper.waitForPageLoad();
 
             testStep("Clicking on 'Book Store Application' tile");
-            seleniumElementsHelper.scrollToElementAndClick(By.xpath("//h5[text()='Book Store Application']"));
+            seleniumElementsHelper.scrollToElement(By.xpath("//h5[text()='Book Store Application']"));
             seleniumElementsHelper.clickSafely(By.xpath("//h5[text()='Book Store Application']"));
             seleniumElementsHelper.waitForPageLoad();
 
@@ -177,19 +177,19 @@ public class DemoQA extends TestBase {
 
         testStep("Filling out Date of Birth");
         seleniumElementsHelper.clickSafely(By.id("dateOfBirthInput"));
-        seleniumElementsHelper.clickSafely(By.cssSelector(".react-datepicker__day--001"));  // Click on the first day of the month
+        seleniumElementsHelper.click(By.cssSelector(".react-datepicker__day--001"));  // Click on the first day of the month
 
         testStep("Filling out Subjects");
         seleniumElementsHelper.sendKeys(By.id("subjectsInput"), "Maths");
         seleniumElementsHelper.sendKeys(By.id("subjectsInput"), Keys.ENTER.toString());  // Press Enter to add subject
 
         testStep("Selecting Hobbies");
-        seleniumElementsHelper.scrollToElementAndClick(By.cssSelector("label[for='hobbies-checkbox-1']"));
-//        seleniumElementsHelper.waitForElementToBeClickable(By.cssSelector("label[for='hobbies-checkbox-1']"));
-//        seleniumElementsHelper.clickElementByJS(By.cssSelector("label[for='hobbies-checkbox-1']"));  // Sports
-        seleniumElementsHelper.scrollToElementAndClick(By.cssSelector("label[for='hobbies-checkbox-3']"));
-//        seleniumElementsHelper.waitForElementToBeClickable(By.cssSelector("label[for='hobbies-checkbox-3']"));
-//        seleniumElementsHelper.clickElementByJS(By.cssSelector("label[for='hobbies-checkbox-3']"));  // Music
+        seleniumElementsHelper.scrollToElement(By.cssSelector("label[for='hobbies-checkbox-1']"));
+        seleniumElementsHelper.waitForElementToBeClickable(By.cssSelector("label[for='hobbies-checkbox-1']"));
+        seleniumElementsHelper.clickElementByJS(By.cssSelector("label[for='hobbies-checkbox-1']"));  // Sports
+        seleniumElementsHelper.scrollToElement(By.cssSelector("label[for='hobbies-checkbox-3']"));
+        seleniumElementsHelper.waitForElementToBeClickable(By.cssSelector("label[for='hobbies-checkbox-3']"));
+        seleniumElementsHelper.clickElementByJS(By.cssSelector("label[for='hobbies-checkbox-3']"));  // Music
 
         testStep("Uploading Picture");
         seleniumElementsHelper.sendKeys(By.id("uploadPicture"), "C:\\Users\\dokto\\Desktop\\WP_P_1.jpg");
