@@ -18,7 +18,7 @@ public class BrowserManager {
     private static final String DRIVER_PATH = System.getProperty("user.dir") + "\\src\\test\\resources\\drivers\\";
     private static final String GRID_URL = "http://192.168.1.5:4444/wd/hub"; // Selenium Grid
     private static final String SAUCE_USERNAME = "oauth-robertoo256-ae5d4";
-    private static final String SAUCE_ACCESS_KEY = "****c361";
+    private static final String SAUCE_ACCESS_KEY = "a855a789-9239-416d-a1f1-b115f727c361";
 
     public enum DriverType {
         LOCAL, REMOTE, SAUCELABS
