@@ -37,7 +37,7 @@ public class TestBase {
     protected void setupBeforeTest() throws Exception {
         testStepCounter = 0;  // Reset step counter before each test method
         LOG.info("Setup before the test has just started.");
-        setupDriver(BrowserManager.DriverType.LOCAL);  // Przykładowe użycie SAUCELABS, można zmienić w zależności od potrzeb
+        setupDriver(BrowserManager.DriverType.SAUCELABS);  // Przykładowe użycie SAUCELABS, można zmienić w zależności od potrzeb
         setupHelpers();
         LOG.info("Setup done.");
     }
