@@ -3802,3 +3802,439 @@
 2024-07-06 21:55:56 INFO  TestBase:97 - [TEST RESULT]: Session and cookie handling test completed - PASSED
 2024-07-06 21:55:56 INFO  TestBase:48 - Cleaning up after test.
 2024-07-06 21:55:56 INFO  TestBase:53 - Cleanup done.
+2024-07-07 06:29:01 INFO  TestBase:40 - Setup before the test has just started.
+2024-07-07 06:29:01 WARN  TestBase:73 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 06:29:03 INFO  TestBase:43 - Setup done.
+2024-07-07 06:29:03 INFO  TestBase:88 - [STEP 1] Navigating to home page
+2024-07-07 06:29:10 INFO  TestBase:88 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 06:29:10 INFO  TestBase:88 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 06:29:10 INFO  TestBase:88 - [STEP 4] Using JavaScript to perform double click
+2024-07-07 06:29:10 INFO  TestBase:88 - [STEP 5] Verifying JavaScript manipulation
+2024-07-07 06:29:10 INFO  TestBase:97 - [TEST RESULT]: Advanced JavaScript manipulations test completed - PASSED
+2024-07-07 06:29:11 INFO  TestBase:48 - Cleaning up after test.
+2024-07-07 06:29:11 INFO  TestBase:53 - Cleanup done.
+2024-07-07 06:29:11 INFO  TestBase:40 - Setup before the test has just started.
+2024-07-07 06:29:11 WARN  TestBase:73 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 06:29:12 INFO  TestBase:43 - Setup done.
+2024-07-07 06:29:12 INFO  TestBase:88 - [STEP 1] Navigating to home page
+2024-07-07 06:29:19 INFO  TestBase:88 - [STEP 2] Clicking on 'Alerts, Frame & Windows' tile
+2024-07-07 06:29:19 INFO  TestBase:88 - [STEP 3] Clicking on 'Alerts' section
+2024-07-07 06:29:20 INFO  TestBase:88 - [STEP 4] Triggering an alert
+2024-07-07 06:29:20 INFO  TestBase:88 - [STEP 5] Verifying alert was accepted
+2024-07-07 06:29:20 INFO  TestBase:97 - [TEST RESULT]: Alert functionality test completed - PASSED
+2024-07-07 06:29:20 INFO  TestBase:48 - Cleaning up after test.
+2024-07-07 06:29:20 INFO  TestBase:53 - Cleanup done.
+2024-07-07 06:29:20 INFO  TestBase:40 - Setup before the test has just started.
+2024-07-07 06:29:20 WARN  TestBase:73 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 06:29:21 INFO  TestBase:43 - Setup done.
+2024-07-07 06:29:21 INFO  TestBase:88 - [STEP 1] Navigating to home page
+2024-07-07 06:29:23 INFO  TestBase:88 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 06:29:23 INFO  TestBase:88 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 06:29:23 INFO  TestBase:88 - [STEP 4] Clicking on a button
+2024-07-07 06:29:23 INFO  TestBase:88 - [STEP 5] Verifying the button has been clicked
+2024-07-07 06:29:23 INFO  TestBase:48 - Cleaning up after test.
+2024-07-07 06:29:23 INFO  TestBase:97 - [TEST RESULT]: TEST DONE - PASSED
+2024-07-07 06:29:24 INFO  TestBase:53 - Cleanup done.
+2024-07-07 06:29:24 INFO  TestBase:40 - Setup before the test has just started.
+2024-07-07 06:29:24 WARN  TestBase:73 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 06:29:25 INFO  TestBase:43 - Setup done.
+2024-07-07 06:29:25 INFO  TestBase:88 - [STEP 1] Navigating to home page
+2024-07-07 06:29:27 INFO  TestBase:88 - [STEP 2] Clicking on 'Widgets' tile
+2024-07-07 06:29:27 INFO  TestBase:88 - [STEP 3] Clicking on 'Select Menu' section
+2024-07-07 06:29:27 INFO  TestBase:88 - [STEP 4] Selecting an option from dropdown
+2024-07-07 06:29:28 INFO  TestBase:88 - [STEP 5] Verifying the option is selected
+2024-07-07 06:29:28 INFO  TestBase:97 - [TEST RESULT]: Dropdown functionality test completed - PASSED
+2024-07-07 06:29:28 INFO  TestBase:48 - Cleaning up after test.
+2024-07-07 06:29:28 INFO  TestBase:53 - Cleanup done.
+2024-07-07 06:29:28 INFO  TestBase:40 - Setup before the test has just started.
+2024-07-07 06:29:28 WARN  TestBase:73 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 06:29:30 INFO  TestBase:43 - Setup done.
+2024-07-07 06:29:30 INFO  TestBase:88 - [STEP 1] Navigating to home page
+2024-07-07 06:29:32 INFO  TestBase:88 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 06:29:32 INFO  TestBase:88 - [STEP 3] Clicking on 'Dynamic Properties' section
+2024-07-07 06:29:32 INFO  TestBase:88 - [STEP 4] Waiting for dynamically loaded button to appear
+2024-07-07 06:29:37 INFO  TestBase:88 - [STEP 5] Clicking on the dynamically loaded button
+2024-07-07 06:29:37 INFO  TestBase:88 - [STEP 6] Verifying button click
+2024-07-07 06:29:37 INFO  TestBase:97 - [TEST RESULT]: Dynamic loads handling test completed - PASSED
+2024-07-07 06:29:37 INFO  TestBase:48 - Cleaning up after test.
+2024-07-07 06:29:37 INFO  TestBase:53 - Cleanup done.
+2024-07-07 06:29:37 INFO  TestBase:40 - Setup before the test has just started.
+2024-07-07 06:29:37 WARN  TestBase:73 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 06:29:39 INFO  TestBase:43 - Setup done.
+2024-07-07 06:29:39 INFO  TestBase:88 - [STEP 1] Navigating to home page
+2024-07-07 06:29:41 INFO  TestBase:88 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 06:29:41 INFO  TestBase:88 - [STEP 3] Clicking on 'Web Tables' section
+2024-07-07 06:29:41 INFO  TestBase:88 - [STEP 4] Adding a new record to the table
+2024-07-07 06:29:43 INFO  TestBase:88 - [STEP 5] Verifying record addition
+2024-07-07 06:29:43 INFO  TestBase:97 - [TEST RESULT]: Interactive table functionality test completed - PASSED
+2024-07-07 06:29:43 INFO  TestBase:48 - Cleaning up after test.
+2024-07-07 06:29:43 INFO  TestBase:53 - Cleanup done.
+2024-07-07 06:29:43 INFO  TestBase:40 - Setup before the test has just started.
+2024-07-07 06:29:43 WARN  TestBase:73 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 06:29:44 INFO  TestBase:43 - Setup done.
+2024-07-07 06:29:44 INFO  TestBase:88 - [STEP 1] Navigating to home page
+2024-07-07 06:29:46 INFO  TestBase:88 - [STEP 2] Clicking on 'Book Store Application' tile
+2024-07-07 06:29:46 INFO  TestBase:88 - [STEP 3] Clicking on 'Login' section
+2024-07-07 06:29:46 INFO  TestBase:88 - [STEP 4] Entering username
+2024-07-07 06:29:46 INFO  TestBase:88 - [STEP 5] Entering password
+2024-07-07 06:29:47 INFO  TestBase:88 - [STEP 6] Clicking on login button
+2024-07-07 06:29:47 INFO  TestBase:88 - [STEP 7] Verifying user is logged in
+2024-07-07 06:29:52 INFO  TestBase:88 - [STEP 8] Verifying 'Log out' button is visible
+2024-07-07 06:29:52 INFO  TestBase:97 - [TEST RESULT]: Login functionality test completed - PASSED
+2024-07-07 06:29:52 INFO  TestBase:48 - Cleaning up after test.
+2024-07-07 06:29:52 INFO  TestBase:53 - Cleanup done.
+2024-07-07 06:29:52 INFO  TestBase:40 - Setup before the test has just started.
+2024-07-07 06:29:52 WARN  TestBase:73 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 06:29:53 INFO  TestBase:43 - Setup done.
+2024-07-07 06:29:53 INFO  TestBase:88 - [STEP 1] Navigating to home page
+2024-07-07 06:29:55 INFO  TestBase:88 - [STEP 2] Clicking on 'Forms' tile
+2024-07-07 06:29:55 INFO  TestBase:88 - [STEP 3] Clicking on 'Practice Form' section
+2024-07-07 06:29:55 INFO  TestBase:88 - [STEP 4] Filling out multiple sections of the form
+2024-07-07 06:29:57 INFO  TestBase:88 - [STEP 5] Filling out Date of Birth
+2024-07-07 06:29:57 INFO  TestBase:88 - [STEP 6] Filling out Subjects
+2024-07-07 06:29:57 INFO  TestBase:88 - [STEP 7] Selecting Hobbies
+2024-07-07 06:29:57 INFO  TestBase:88 - [STEP 8] Uploading Picture
+2024-07-07 06:30:01 INFO  TestBase:88 - [STEP 9] Verifying form submission
+2024-07-07 06:30:01 INFO  TestBase:88 - [STEP 10] Verifying submission message
+2024-07-07 06:30:01 INFO  TestBase:97 - [TEST RESULT]: Multi-section form handling test completed - PASSED
+2024-07-07 06:30:01 INFO  TestBase:48 - Cleaning up after test.
+2024-07-07 06:30:01 INFO  TestBase:53 - Cleanup done.
+2024-07-07 06:30:01 INFO  TestBase:40 - Setup before the test has just started.
+2024-07-07 06:30:01 WARN  TestBase:73 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 06:30:02 INFO  TestBase:43 - Setup done.
+2024-07-07 06:30:02 INFO  TestBase:88 - [STEP 1] Navigating to home page
+2024-07-07 06:30:04 INFO  TestBase:88 - [STEP 2] Simulating network error
+2024-07-07 06:30:04 INFO  TestBase:88 - [STEP 3] Attempting to recover from network error
+2024-07-07 06:30:04 INFO  TestBase:88 - [STEP 4] Verifying page recovery
+2024-07-07 06:30:04 INFO  TestBase:97 - [TEST RESULT]: Network error handling test completed - PASSED
+2024-07-07 06:30:04 INFO  TestBase:48 - Cleaning up after test.
+2024-07-07 06:30:04 INFO  TestBase:53 - Cleanup done.
+2024-07-07 06:30:04 INFO  TestBase:40 - Setup before the test has just started.
+2024-07-07 06:30:04 WARN  TestBase:73 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 06:30:06 INFO  TestBase:43 - Setup done.
+2024-07-07 06:30:06 INFO  TestBase:88 - [STEP 1] Navigating to home page
+2024-07-07 06:30:07 INFO  TestBase:88 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 06:30:08 INFO  TestBase:88 - [STEP 3] Clicking on 'Links' section
+2024-07-07 06:30:08 INFO  TestBase:88 - [STEP 4] Scrolling to the bottom of the page
+2024-07-07 06:30:08 INFO  TestBase:88 - [STEP 5] Verifying the footer is visible
+2024-07-07 06:30:08 INFO  TestBase:97 - [TEST RESULT]: Scrolling functionality test completed - PASSED
+2024-07-07 06:30:08 INFO  TestBase:48 - Cleaning up after test.
+2024-07-07 06:30:08 INFO  TestBase:53 - Cleanup done.
+2024-07-07 06:30:08 INFO  TestBase:40 - Setup before the test has just started.
+2024-07-07 06:30:08 WARN  TestBase:73 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 06:30:09 INFO  TestBase:43 - Setup done.
+2024-07-07 06:30:09 INFO  TestBase:88 - [STEP 1] Navigating to home page
+2024-07-07 06:30:11 INFO  TestBase:88 - [STEP 2] Setting a session cookie
+2024-07-07 06:30:11 INFO  TestBase:88 - [STEP 3] Verifying the cookie is set correctly
+2024-07-07 06:30:11 INFO  TestBase:97 - [TEST RESULT]: Session and cookie handling test completed - PASSED
+2024-07-07 06:30:11 INFO  TestBase:48 - Cleaning up after test.
+2024-07-07 06:30:11 INFO  TestBase:53 - Cleanup done.
+2024-07-07 06:30:57 INFO  TestBase:40 - Setup before the test has just started.
+2024-07-07 06:30:57 WARN  TestBase:73 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 06:30:59 INFO  TestBase:43 - Setup done.
+2024-07-07 06:30:59 INFO  TestBase:88 - [STEP 1] Navigating to home page
+2024-07-07 06:31:06 INFO  TestBase:88 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 06:31:07 INFO  TestBase:88 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 06:31:07 INFO  TestBase:88 - [STEP 4] Clicking on a button
+2024-07-07 06:31:07 INFO  TestBase:88 - [STEP 5] Verifying the button has been clicked
+2024-07-07 06:31:07 INFO  TestBase:97 - [TEST RESULT]: Button click test completed - PASSED
+2024-07-07 06:31:07 INFO  TestBase:48 - Cleaning up after test.
+2024-07-07 06:31:07 INFO  TestBase:53 - Cleanup done.
+2024-07-07 09:20:08 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:20:08 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:20:10 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:20:10 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:20:10 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:20:10 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:20:11 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:20:11 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:20:11 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:20:11 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:20:12 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:20:12 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:20:12 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:20:12 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:20:13 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:20:13 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:20:13 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:20:13 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:20:15 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:20:15 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:20:15 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:20:15 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:20:16 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:20:16 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:20:16 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:20:16 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:20:17 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:20:17 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:20:17 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:20:17 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:20:18 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:20:18 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:20:18 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:20:18 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:20:19 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:20:19 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:20:19 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:20:19 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:20:20 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:20:20 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:20:20 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:20:20 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:20:21 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:20:21 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:21:10 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:21:10 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:21:14 INFO  TestBase:42 - Setup done.
+2024-07-07 09:21:14 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:21:16 INFO  TestBase:87 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 09:21:17 INFO  TestBase:87 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 09:21:17 INFO  TestBase:87 - [STEP 4] Using JavaScript to perform double click
+2024-07-07 09:21:17 INFO  TestBase:87 - [STEP 5] Verifying JavaScript manipulation
+2024-07-07 09:21:17 INFO  TestBase:96 - [TEST RESULT]: Advanced JavaScript manipulations test completed - PASSED
+2024-07-07 09:21:17 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:21:18 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:21:18 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:21:18 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:21:19 INFO  TestBase:42 - Setup done.
+2024-07-07 09:21:19 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:21:21 INFO  TestBase:87 - [STEP 2] Clicking on 'Alerts, Frame & Windows' tile
+2024-07-07 09:21:22 INFO  TestBase:87 - [STEP 3] Clicking on 'Alerts' section
+2024-07-07 09:21:22 INFO  TestBase:87 - [STEP 4] Triggering an alert
+2024-07-07 09:21:22 INFO  TestBase:87 - [STEP 5] Verifying alert was accepted
+2024-07-07 09:21:22 INFO  TestBase:96 - [TEST RESULT]: Alert functionality test completed - PASSED
+2024-07-07 09:21:22 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:21:22 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:21:22 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:21:22 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:21:24 INFO  TestBase:42 - Setup done.
+2024-07-07 09:21:24 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:21:25 INFO  TestBase:87 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 09:21:26 INFO  TestBase:87 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 09:21:26 INFO  TestBase:87 - [STEP 4] Clicking on a button
+2024-07-07 09:21:26 INFO  TestBase:87 - [STEP 5] Verifying the button has been clicked
+2024-07-07 09:21:26 INFO  TestBase:96 - [TEST RESULT]: Button click test completed - PASSED
+2024-07-07 09:21:26 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:21:26 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:21:26 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:21:26 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:21:28 INFO  TestBase:42 - Setup done.
+2024-07-07 09:21:28 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:21:35 INFO  TestBase:87 - [STEP 2] Clicking on 'Widgets' tile
+2024-07-07 09:21:35 INFO  TestBase:87 - [STEP 3] Clicking on 'Select Menu' section
+2024-07-07 09:21:35 INFO  TestBase:87 - [STEP 4] Selecting an option from dropdown
+2024-07-07 09:21:35 INFO  TestBase:87 - [STEP 5] Verifying the option is selected
+2024-07-07 09:21:35 INFO  TestBase:96 - [TEST RESULT]: Dropdown functionality test completed - PASSED
+2024-07-07 09:21:35 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:21:35 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:21:35 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:21:35 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:21:37 INFO  TestBase:42 - Setup done.
+2024-07-07 09:21:37 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:21:39 INFO  TestBase:87 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 09:21:40 INFO  TestBase:87 - [STEP 3] Clicking on 'Dynamic Properties' section
+2024-07-07 09:21:40 INFO  TestBase:87 - [STEP 4] Waiting for dynamically loaded button to appear
+2024-07-07 09:21:45 INFO  TestBase:87 - [STEP 5] Clicking on the dynamically loaded button
+2024-07-07 09:21:45 INFO  TestBase:87 - [STEP 6] Verifying button click
+2024-07-07 09:21:45 INFO  TestBase:96 - [TEST RESULT]: Dynamic loads handling test completed - PASSED
+2024-07-07 09:21:45 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:21:46 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:21:46 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:21:46 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:21:47 INFO  TestBase:42 - Setup done.
+2024-07-07 09:21:47 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:21:49 INFO  TestBase:87 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 09:21:49 INFO  TestBase:87 - [STEP 3] Clicking on 'Web Tables' section
+2024-07-07 09:21:50 INFO  TestBase:87 - [STEP 4] Adding a new record to the table
+2024-07-07 09:21:51 INFO  TestBase:87 - [STEP 5] Verifying record addition
+2024-07-07 09:21:51 INFO  TestBase:96 - [TEST RESULT]: Interactive table functionality test completed - PASSED
+2024-07-07 09:21:51 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:21:51 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:21:51 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:21:51 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:21:53 INFO  TestBase:42 - Setup done.
+2024-07-07 09:21:53 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:21:55 INFO  TestBase:87 - [STEP 2] Clicking on 'Book Store Application' tile
+2024-07-07 09:21:55 INFO  TestBase:87 - [STEP 3] Clicking on 'Login' section
+2024-07-07 09:21:55 INFO  TestBase:87 - [STEP 4] Entering username
+2024-07-07 09:21:56 INFO  TestBase:87 - [STEP 5] Entering password
+2024-07-07 09:21:56 INFO  TestBase:87 - [STEP 6] Clicking on login button
+2024-07-07 09:21:56 INFO  TestBase:87 - [STEP 7] Verifying user is logged in
+2024-07-07 09:22:01 INFO  TestBase:87 - [STEP 8] Verifying 'Log out' button is visible
+2024-07-07 09:22:01 INFO  TestBase:96 - [TEST RESULT]: Login functionality test completed - PASSED
+2024-07-07 09:22:01 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:22:02 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:22:02 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:22:02 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:22:03 INFO  TestBase:42 - Setup done.
+2024-07-07 09:22:03 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:22:05 INFO  TestBase:87 - [STEP 2] Clicking on 'Forms' tile
+2024-07-07 09:22:05 INFO  TestBase:87 - [STEP 3] Clicking on 'Practice Form' section
+2024-07-07 09:22:05 INFO  TestBase:87 - [STEP 4] Filling out multiple sections of the form
+2024-07-07 09:22:06 INFO  TestBase:87 - [STEP 5] Filling out Date of Birth
+2024-07-07 09:22:06 INFO  TestBase:87 - [STEP 6] Filling out Subjects
+2024-07-07 09:22:07 INFO  TestBase:87 - [STEP 7] Selecting Hobbies
+2024-07-07 09:22:07 INFO  TestBase:87 - [STEP 8] Uploading Picture
+2024-07-07 09:22:10 INFO  TestBase:87 - [STEP 9] Verifying form submission
+2024-07-07 09:22:10 INFO  TestBase:87 - [STEP 10] Verifying submission message
+2024-07-07 09:22:10 INFO  TestBase:96 - [TEST RESULT]: Multi-section form handling test completed - PASSED
+2024-07-07 09:22:10 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:22:10 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:22:10 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:22:10 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:22:12 INFO  TestBase:42 - Setup done.
+2024-07-07 09:22:12 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:22:14 INFO  TestBase:87 - [STEP 2] Simulating network error
+2024-07-07 09:22:14 INFO  TestBase:87 - [STEP 3] Attempting to recover from network error
+2024-07-07 09:22:14 INFO  TestBase:87 - [STEP 4] Verifying page recovery
+2024-07-07 09:22:14 INFO  TestBase:96 - [TEST RESULT]: Network error handling test completed - PASSED
+2024-07-07 09:22:14 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:22:15 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:22:15 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:22:15 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:22:16 INFO  TestBase:42 - Setup done.
+2024-07-07 09:22:16 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:22:18 INFO  TestBase:87 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 09:22:18 INFO  TestBase:87 - [STEP 3] Clicking on 'Links' section
+2024-07-07 09:22:18 INFO  TestBase:87 - [STEP 4] Scrolling to the bottom of the page
+2024-07-07 09:22:19 INFO  TestBase:87 - [STEP 5] Verifying the footer is visible
+2024-07-07 09:22:19 INFO  TestBase:96 - [TEST RESULT]: Scrolling functionality test completed - PASSED
+2024-07-07 09:22:19 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:22:19 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:22:19 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:22:19 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:22:21 INFO  TestBase:42 - Setup done.
+2024-07-07 09:22:21 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:22:22 INFO  TestBase:87 - [STEP 2] Setting a session cookie
+2024-07-07 09:22:22 INFO  TestBase:87 - [STEP 3] Verifying the cookie is set correctly
+2024-07-07 09:22:22 INFO  TestBase:96 - [TEST RESULT]: Session and cookie handling test completed - PASSED
+2024-07-07 09:22:22 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:22:23 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:28:24 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:28:24 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:28:26 INFO  TestBase:42 - Setup done.
+2024-07-07 09:28:27 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:28:28 INFO  TestBase:87 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 09:28:29 INFO  TestBase:87 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 09:28:29 INFO  TestBase:87 - [STEP 4] Using JavaScript to perform double click
+2024-07-07 09:28:29 INFO  TestBase:87 - [STEP 5] Verifying JavaScript manipulation
+2024-07-07 09:28:29 INFO  TestBase:96 - [TEST RESULT]: Advanced JavaScript manipulations test completed - PASSED
+2024-07-07 09:28:29 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:28:29 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:28:29 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:28:29 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:28:30 INFO  TestBase:42 - Setup done.
+2024-07-07 09:28:30 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:28:32 INFO  TestBase:87 - [STEP 2] Clicking on 'Alerts, Frame & Windows' tile
+2024-07-07 09:28:32 INFO  TestBase:87 - [STEP 3] Clicking on 'Alerts' section
+2024-07-07 09:28:32 INFO  TestBase:87 - [STEP 4] Triggering an alert
+2024-07-07 09:28:32 INFO  TestBase:87 - [STEP 5] Verifying alert was accepted
+2024-07-07 09:28:32 INFO  TestBase:96 - [TEST RESULT]: Alert functionality test completed - PASSED
+2024-07-07 09:28:32 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:28:32 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:28:32 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:28:32 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:28:33 INFO  TestBase:42 - Setup done.
+2024-07-07 09:28:33 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:28:35 INFO  TestBase:87 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 09:28:35 INFO  TestBase:87 - [STEP 3] Clicking on 'Buttons' section
+2024-07-07 09:28:35 INFO  TestBase:87 - [STEP 4] Clicking on a button
+2024-07-07 09:28:36 INFO  TestBase:87 - [STEP 5] Verifying the button has been clicked
+2024-07-07 09:28:36 INFO  TestBase:96 - [TEST RESULT]: Button click test completed - PASSED
+2024-07-07 09:28:36 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:28:36 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:28:36 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:28:36 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:28:37 INFO  TestBase:42 - Setup done.
+2024-07-07 09:28:37 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:28:39 INFO  TestBase:87 - [STEP 2] Clicking on 'Widgets' tile
+2024-07-07 09:28:40 INFO  TestBase:87 - [STEP 3] Clicking on 'Select Menu' section
+2024-07-07 09:28:40 INFO  TestBase:87 - [STEP 4] Selecting an option from dropdown
+2024-07-07 09:28:40 INFO  TestBase:87 - [STEP 5] Verifying the option is selected
+2024-07-07 09:28:40 INFO  TestBase:96 - [TEST RESULT]: Dropdown functionality test completed - PASSED
+2024-07-07 09:28:40 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:28:40 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:28:40 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:28:40 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:28:41 INFO  TestBase:42 - Setup done.
+2024-07-07 09:28:41 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:28:43 INFO  TestBase:87 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 09:28:43 INFO  TestBase:87 - [STEP 3] Clicking on 'Dynamic Properties' section
+2024-07-07 09:28:43 INFO  TestBase:87 - [STEP 4] Waiting for dynamically loaded button to appear
+2024-07-07 09:28:48 INFO  TestBase:87 - [STEP 5] Clicking on the dynamically loaded button
+2024-07-07 09:28:48 INFO  TestBase:87 - [STEP 6] Verifying button click
+2024-07-07 09:28:48 INFO  TestBase:96 - [TEST RESULT]: Dynamic loads handling test completed - PASSED
+2024-07-07 09:28:48 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:28:49 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:28:49 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:28:49 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:28:50 INFO  TestBase:42 - Setup done.
+2024-07-07 09:28:50 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:28:52 INFO  TestBase:87 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 09:28:52 INFO  TestBase:87 - [STEP 3] Clicking on 'Web Tables' section
+2024-07-07 09:28:52 INFO  TestBase:87 - [STEP 4] Adding a new record to the table
+2024-07-07 09:28:53 INFO  TestBase:87 - [STEP 5] Verifying record addition
+2024-07-07 09:28:53 INFO  TestBase:96 - [TEST RESULT]: Interactive table functionality test completed - PASSED
+2024-07-07 09:28:53 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:28:53 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:28:53 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:28:53 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:28:55 INFO  TestBase:42 - Setup done.
+2024-07-07 09:28:55 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:28:57 INFO  TestBase:87 - [STEP 2] Clicking on 'Book Store Application' tile
+2024-07-07 09:28:57 INFO  TestBase:87 - [STEP 3] Clicking on 'Login' section
+2024-07-07 09:28:57 INFO  TestBase:87 - [STEP 4] Entering username
+2024-07-07 09:28:57 INFO  TestBase:87 - [STEP 5] Entering password
+2024-07-07 09:28:57 INFO  TestBase:87 - [STEP 6] Clicking on login button
+2024-07-07 09:28:57 INFO  TestBase:87 - [STEP 7] Verifying user is logged in
+2024-07-07 09:29:02 INFO  TestBase:87 - [STEP 8] Verifying 'Log out' button is visible
+2024-07-07 09:29:03 INFO  TestBase:96 - [TEST RESULT]: Login functionality test completed - PASSED
+2024-07-07 09:29:03 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:29:03 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:29:03 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:29:03 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:29:03 INFO  TestBase:42 - Setup done.
+2024-07-07 09:29:03 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:29:05 INFO  TestBase:87 - [STEP 2] Clicking on 'Forms' tile
+2024-07-07 09:29:05 INFO  TestBase:87 - [STEP 3] Clicking on 'Practice Form' section
+2024-07-07 09:29:06 INFO  TestBase:87 - [STEP 4] Filling out multiple sections of the form
+2024-07-07 09:29:06 INFO  TestBase:87 - [STEP 5] Filling out Date of Birth
+2024-07-07 09:29:07 INFO  TestBase:87 - [STEP 6] Filling out Subjects
+2024-07-07 09:29:07 INFO  TestBase:87 - [STEP 7] Selecting Hobbies
+2024-07-07 09:29:07 INFO  TestBase:87 - [STEP 8] Uploading Picture
+2024-07-07 09:29:10 INFO  TestBase:87 - [STEP 9] Verifying form submission
+2024-07-07 09:29:10 INFO  TestBase:87 - [STEP 10] Verifying submission message
+2024-07-07 09:29:10 INFO  TestBase:96 - [TEST RESULT]: Multi-section form handling test completed - PASSED
+2024-07-07 09:29:10 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:29:11 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:29:11 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:29:11 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:29:11 INFO  TestBase:42 - Setup done.
+2024-07-07 09:29:11 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:29:13 INFO  TestBase:87 - [STEP 2] Simulating network error
+2024-07-07 09:29:13 INFO  TestBase:87 - [STEP 3] Attempting to recover from network error
+2024-07-07 09:29:13 INFO  TestBase:87 - [STEP 4] Verifying page recovery
+2024-07-07 09:29:13 INFO  TestBase:96 - [TEST RESULT]: Network error handling test completed - PASSED
+2024-07-07 09:29:13 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:29:14 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:29:14 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:29:14 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:29:15 INFO  TestBase:42 - Setup done.
+2024-07-07 09:29:15 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:29:17 INFO  TestBase:87 - [STEP 2] Clicking on 'Elements' tile
+2024-07-07 09:29:17 INFO  TestBase:87 - [STEP 3] Clicking on 'Links' section
+2024-07-07 09:29:18 INFO  TestBase:87 - [STEP 4] Scrolling to the bottom of the page
+2024-07-07 09:29:18 INFO  TestBase:87 - [STEP 5] Verifying the footer is visible
+2024-07-07 09:29:18 INFO  TestBase:96 - [TEST RESULT]: Scrolling functionality test completed - PASSED
+2024-07-07 09:29:18 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:29:18 INFO  TestBase:52 - Cleanup done.
+2024-07-07 09:29:18 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 09:29:18 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 09:29:19 INFO  TestBase:42 - Setup done.
+2024-07-07 09:29:19 INFO  TestBase:87 - [STEP 1] Navigating to home page
+2024-07-07 09:29:21 INFO  TestBase:87 - [STEP 2] Setting a session cookie
+2024-07-07 09:29:21 INFO  TestBase:87 - [STEP 3] Verifying the cookie is set correctly
+2024-07-07 09:29:21 INFO  TestBase:96 - [TEST RESULT]: Session and cookie handling test completed - PASSED
+2024-07-07 09:29:21 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 09:29:21 INFO  TestBase:52 - Cleanup done.

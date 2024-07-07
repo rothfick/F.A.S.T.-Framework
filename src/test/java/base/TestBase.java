@@ -2,7 +2,6 @@ package base;
 
 import helpers.AppHelper;
 import io.qameta.allure.Step;
-import lombok.NonNull;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -24,7 +23,7 @@ public class TestBase {
     protected WebDriverWait driverWait;
     protected SeleniumElementsHelper seleniumElementsHelper;
 
-    private static final int WEB_DRIVER_TIMEOUT = 75;
+    private static final int WEB_DRIVER_TIMEOUT = 150;
     protected boolean disableWebSecurity = false;
 
     private static final Logger LOG = ThreadLogger.getLogger(TestBase.class);
@@ -35,10 +34,10 @@ public class TestBase {
     private Map<Class, Object> allHelpers = new HashMap<>();
 
     @BeforeMethod(alwaysRun = true)
-    protected void setupBeforeTest() throws IOException {
-        testStepCounter = 0; // Reset step counter before each test method
+    protected void setupBeforeTest() throws Exception {
+        testStepCounter = 0;  // Reset step counter before each test method
         LOG.info("Setup before the test has just started.");
-        setupDriver();
+        setupDriver(BrowserManager.DriverType.LOCAL);  // Przykładowe użycie SAUCELABS, można zmienić w zależności od potrzeb
         setupHelpers();
         LOG.info("Setup done.");
     }
@@ -46,16 +45,16 @@ public class TestBase {
     @AfterMethod(alwaysRun = true)
     protected void cleanUpAfterTest(ITestResult testResult) {
         LOG.info("Cleaning up after test.");
-        testDone("TEST DONE", !testResult.isSuccess()); // Zamyka ostatni test
+        testDone("TEST DONE", !testResult.isSuccess());  // Zamyka ostatni test
         if (driver != null) {
             driver.quit();
         }
         LOG.info("Cleanup done.");
     }
 
-    protected void setupDriver() throws IOException {
+    protected void setupDriver(BrowserManager.DriverType driverType) throws Exception {
         BrowserManager browserManager = new BrowserManager();
-        driver = browserManager.getDriver(getBrowserFromProperties());
+        driver = browserManager.getDriver(getBrowserFromProperties(), driverType);
         configureWebDriver(driver);
         driverWait = new WebDriverWait(driver, WEB_DRIVER_TIMEOUT);
     }
