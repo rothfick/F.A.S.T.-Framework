@@ -6,6 +6,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Modifier;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -26,20 +28,16 @@ public abstract class AppHelper {
      * @param seleniumElementsHelper an instance of SeleniumElementsHelper to be passed to helpers' constructors.
      * @return a map of helper classes to their instantiated objects.
      */
-    public static Map<Class<? extends AppHelper>, AppHelper> initAppHelpers(@NonNull SeleniumElementsHelper seleniumElementsHelper) {
-        Map<Class<? extends AppHelper>, AppHelper> appHelperMap = new HashMap<>();
-        Reflections reflections = new Reflections("helpers");
-
+    public static Map<Class, AppHelper> initAppHelpers(@NonNull SeleniumElementsHelper seleniumElementsHelper) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+        Map<Class, AppHelper> appHelperMap = new HashMap<>();
+        Reflections reflections = new Reflections(AppHelper.class.getPackage().getName());
         Set<Class<? extends AppHelper>> appHelpers = reflections.getSubTypesOf(AppHelper.class);
-        for (Class<? extends AppHelper> appHelperClass : appHelpers) {
-            if (!java.lang.reflect.Modifier.isAbstract(appHelperClass.getModifiers())) {
-                try {
-                    Constructor<? extends AppHelper> constructor = appHelperClass.getConstructor(SeleniumElementsHelper.class);
-                    AppHelper helperInstance = constructor.newInstance(seleniumElementsHelper);
-                    appHelperMap.put(appHelperClass, helperInstance);
-                } catch (Exception e) {
-                    LOG.error("Error initializing helper: " + appHelperClass.getSimpleName(), e);
-                }
+        for(Class<? extends AppHelper> appHelper : appHelpers){
+            if(!Modifier.isAbstract(appHelper.getModifiers())){
+                Constructor<? extends AppHelper> constructor = appHelper.getConstructor(
+                        SeleniumElementsHelper.class
+                );
+                appHelperMap.put(appHelper, constructor.newInstance(seleniumElementsHelper));
             }
         }
         return appHelperMap;

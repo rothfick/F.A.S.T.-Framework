@@ -10,6 +10,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
+import static utils.properties.DemoQAProperty.*;
+
 
 public class DemoQATests extends TestBase {
 
@@ -20,38 +22,38 @@ public class DemoQATests extends TestBase {
     public void testLoginFunctionality() {
         try {
             testStep("Navigating to home page");
-            driver.get("https://demoqa.com");
+            driver.get(HOME_URL.get());
             seleniumElementsHelper.waitForPageLoad();
 
             testStep("Clicking on 'Book Store Application' tile");
-            seleniumElementsHelper.scrollToElement(By.xpath("//h5[text()='Book Store Application']"));
-            seleniumElementsHelper.clickSafely(By.xpath("//h5[text()='Book Store Application']"));
+            seleniumElementsHelper.scrollToElement(By.xpath(BOOK_STORE_APPLICATION_XPATH.get()));
+            seleniumElementsHelper.clickSafely(By.xpath(BOOK_STORE_APPLICATION_XPATH.get()));
             seleniumElementsHelper.waitForPageLoad();
 
             testStep("Clicking on 'Login' section");
-            seleniumElementsHelper.clickSafely(By.xpath("//span[text()='Login']"));
+            seleniumElementsHelper.clickSafely(By.xpath(LOGIN_SECTION_XPATH.get()));
             seleniumElementsHelper.waitForPageLoad();
 
             testStep("Entering username");
-            seleniumElementsHelper.sendKeys(By.id("userName"), "testUser");
+            seleniumElementsHelper.sendKeys(By.id(USERNAME_ID.get()), USERNAME.get());
 
             testStep("Entering password");
-            seleniumElementsHelper.sendKeys(By.id("password"), "Test@1234");
+            seleniumElementsHelper.sendKeys(By.id(PASSWORD_ID.get()), PASSWORD.get());
 
             testStep("Clicking on login button");
-            seleniumElementsHelper.clickSafely(By.id("login"));
+            seleniumElementsHelper.clickSafely(By.id(LOGIN_ID.get()));
             seleniumElementsHelper.waitForPageLoad();
 
             testStep("Verifying user is logged in");
-            seleniumElementsHelper.waitForElementToBeVisible(By.id("userName-label"));
-            if (!seleniumElementsHelper.isElementPresent(By.id("userName-label"))) {
+            seleniumElementsHelper.waitForElementToBeVisible(By.id(USERNAME_LABEL_ID.get()));
+            if (!seleniumElementsHelper.isElementPresent(By.id(USERNAME_LABEL_ID.get()))) {
                 String errorMessage = seleniumElementsHelper.getElementText(By.id("name"));
                 assert false : "User is not logged in. Error message: " + errorMessage;
             }
 
             testStep("Verifying 'Log out' button is visible");
-            seleniumElementsHelper.waitForElementToBeVisible(By.id("submit")); // Assuming "submit" is the id for Log out button
-            if (!seleniumElementsHelper.isElementPresent(By.id("submit"))) {
+            seleniumElementsHelper.waitForElementToBeVisible(By.id(SUBMIT_BUTTON_ID.get())); // Assuming "submit" is the id for Log out button
+            if (!seleniumElementsHelper.isElementPresent(By.id(SUBMIT_BUTTON_ID.get()))) {
                 assert false : "Log out button is not visible after login.";
             }
 
@@ -68,16 +70,16 @@ public class DemoQATests extends TestBase {
     @Feature("Button Click")
     public void testButtonClick() {
         testStep("Navigating to home page");
-        driver.get("https://demoqa.com");
+        driver.get(HOME_URL.get());
         seleniumElementsHelper.waitForPageLoad();
         testStep("Clicking on 'Elements' tile");
-        seleniumElementsHelper.clickSafely(By.xpath("//h5[text()='Elements']"));
+        seleniumElementsHelper.clickSafely(By.xpath(ELEMENTS_TILE_XPATH.get()));
         seleniumElementsHelper.waitForPageLoad();
         testStep("Clicking on 'Buttons' section");
-        seleniumElementsHelper.clickSafely(By.xpath("//span[text()='Buttons']"));
+        seleniumElementsHelper.clickSafely(By.xpath(BUTTONS_SECTION_XPATH.get()));
         seleniumElementsHelper.waitForPageLoad();
         testStep("Clicking on a button");
-        seleniumElementsHelper.clickSafely(By.xpath("//button[text()='Click Me']"));
+        seleniumElementsHelper.clickSafely(By.xpath(BUTTON_CLICKME_XPATH.get()));
         testStep("Verifying the button has been clicked");
         assert seleniumElementsHelper.isElementPresent(By.id("dynamicClickMessage")) : "Button was not clicked";
         testDone("Button click test completed");
@@ -89,19 +91,19 @@ public class DemoQATests extends TestBase {
     @Feature("Scrolling")
     public void testScrollingFunctionality() {
         testStep("Navigating to home page");
-        driver.get("https://demoqa.com");
+        driver.get(HOME_URL.get());
         seleniumElementsHelper.waitForPageLoad();
         testStep("Clicking on 'Elements' tile");
-        seleniumElementsHelper.clickSafely(By.xpath("//h5[text()='Elements']"));
+        seleniumElementsHelper.clickSafely(By.xpath(ELEMENTS_TILE_XPATH.get()));
         seleniumElementsHelper.waitForPageLoad();
         testStep("Clicking on 'Links' section");
-        seleniumElementsHelper.clickSafely(By.xpath("//span[text()='Links']"));
+        seleniumElementsHelper.clickSafely(By.xpath(LINK_TILE_XPATH.get()));
         seleniumElementsHelper.waitForPageLoad();
         testStep("Scrolling to the bottom of the page");
         seleniumElementsHelper.scrollToEndOfPage();
-        seleniumElementsHelper.waitForElementToBeVisible(By.id("fixedban"));
+        seleniumElementsHelper.waitForElementToBeVisible(By.id(FOOTER_ID.get()));
         testStep("Verifying the footer is visible");
-        assert seleniumElementsHelper.isElementPresent(By.id("fixedban")) : "Footer is not visible after scrolling";
+        assert seleniumElementsHelper.isElementPresent(By.id(FOOTER_ID.get())) : "Footer is not visible after scrolling";
         testDone("Scrolling functionality test completed");
     }
 
@@ -111,19 +113,19 @@ public class DemoQATests extends TestBase {
     @Feature("Dropdown")
     public void testDropdownFunctionality() {
         testStep("Navigating to home page");
-        driver.get("https://demoqa.com");
+        driver.get(HOME_URL.get());
         seleniumElementsHelper.waitForPageLoad();
         testStep("Clicking on 'Widgets' tile");
-        seleniumElementsHelper.clickSafely(By.xpath("//h5[text()='Widgets']"));
+        seleniumElementsHelper.clickSafely(By.xpath(WIDGETS_TILE_XPATH.get()));
         seleniumElementsHelper.waitForPageLoad();
         testStep("Clicking on 'Select Menu' section");
-        seleniumElementsHelper.scrollToElement(By.xpath("//span[text()='Select Menu']"));
-        seleniumElementsHelper.clickSafely(By.xpath("//span[text()='Select Menu']"));
+        seleniumElementsHelper.scrollToElement(By.xpath(SELECTMENU_SECTION_XPATH.get()));
+        seleniumElementsHelper.clickSafely(By.xpath(SELECTMENU_SECTION_XPATH.get()));
         seleniumElementsHelper.waitForPageLoad();
         testStep("Selecting an option from dropdown");
-        seleniumElementsHelper.selectDropdownByVisibleText(By.id("oldSelectMenu"), "Blue");
+        seleniumElementsHelper.selectDropdownByVisibleText(By.id(DROPDOWN_ID.get()), DROPDOWN_OPTION.get());
         testStep("Verifying the option is selected");
-        assert seleniumElementsHelper.getElementText(By.id("oldSelectMenu")).contains("Blue") : "Option is not selected";
+        assert seleniumElementsHelper.getElementText(By.id(DROPDOWN_ID.get())).contains(DROPDOWN_OPTION.get()) : "Option is not selected";
         testDone("Dropdown functionality test completed");
     }
 
@@ -133,16 +135,16 @@ public class DemoQATests extends TestBase {
     @Feature("Alerts")
     public void testAlertFunctionality() {
         testStep("Navigating to home page");
-        driver.get("https://demoqa.com");
+        driver.get(HOME_URL.get());
         seleniumElementsHelper.waitForPageLoad();
         testStep("Clicking on 'Alerts, Frame & Windows' tile");
-        seleniumElementsHelper.clickSafely(By.xpath("//h5[text()='Alerts, Frame & Windows']"));
+        seleniumElementsHelper.clickSafely(By.xpath(ALERTSFRAMEWINDOWS_TILE_XPATH.get()));
         seleniumElementsHelper.waitForPageLoad();
         testStep("Clicking on 'Alerts' section");
-        seleniumElementsHelper.clickSafely(By.xpath("//span[text()='Alerts']"));
+        seleniumElementsHelper.clickSafely(By.xpath(ALERTS_SECTION_XPATH.get()));
         seleniumElementsHelper.waitForPageLoad();
         testStep("Triggering an alert");
-        seleniumElementsHelper.clickSafely(By.id("alertButton"));
+        seleniumElementsHelper.clickSafely(By.id(ALERT_BUTTON_ID.get()));
         seleniumElementsHelper.waitForAlertToBePresent();
         seleniumElementsHelper.acceptAlert();
         testStep("Verifying alert was accepted");
@@ -156,32 +158,32 @@ public class DemoQATests extends TestBase {
     @Feature("Form Handling")
     public void testMultiSectionFormHandling() {
         testStep("Navigating to home page");
-        driver.get("https://demoqa.com");
+        driver.get(HOME_URL.get());
         seleniumElementsHelper.waitForPageLoad();
 
         testStep("Clicking on 'Forms' tile");
-        seleniumElementsHelper.scrollToElementAndClick(By.xpath("//h5[text()='Forms']"));
+        seleniumElementsHelper.scrollToElementAndClick(By.xpath(FORM_TILE_XPATH.get()));
         seleniumElementsHelper.waitForPageLoad();
 
         testStep("Clicking on 'Practice Form' section");
-        seleniumElementsHelper.clickSafely(By.xpath("//span[text()='Practice Form']"));
+        seleniumElementsHelper.clickSafely(By.xpath(PRACTISE_FORM_SECTION_XPATH.get()));
         seleniumElementsHelper.waitForPageLoad();
 
         testStep("Filling out multiple sections of the form");
-        seleniumElementsHelper.sendKeys(By.id("firstName"), "John");
-        seleniumElementsHelper.sendKeys(By.id("lastName"), "Doe");
-        seleniumElementsHelper.sendKeys(By.id("userEmail"), "john.doe@example.com");
+        seleniumElementsHelper.sendKeys(By.id(FIRSTNAME_ID.get()), "John");
+        seleniumElementsHelper.sendKeys(By.id(LAST_NAME_ID.get()), "Doe");
+        seleniumElementsHelper.sendKeys(By.id(USEREMAIL_ID.get()), "john.doe@example.com");
         seleniumElementsHelper.clickSafely(By.cssSelector("label[for='gender-radio-1']"));  // Click on Male
-        seleniumElementsHelper.sendKeys(By.id("userNumber"), "1234567890");
+        seleniumElementsHelper.sendKeys(By.id(USERNUMBER_ID.get()), "1234567890");
 
         testStep("Filling out Date of Birth");
-        seleniumElementsHelper.clickSafely(By.id("dateOfBirthInput"));
+        seleniumElementsHelper.clickSafely(By.id(DATE_ID.get()));
         seleniumElementsHelper.waitForElementToBeVisible(By.cssSelector(".react-datepicker__day--001"));
         seleniumElementsHelper.clickSafely(By.cssSelector(".react-datepicker__day--001"));  // Click on the first day of the month
 
         testStep("Filling out Subjects");
-        seleniumElementsHelper.sendKeys(By.id("subjectsInput"), "Maths");
-        seleniumElementsHelper.sendKeys(By.id("subjectsInput"), Keys.ENTER.toString());  // Press Enter to add subject
+        seleniumElementsHelper.sendKeys(By.id(SUBJECT_ID.get()), "Maths");
+        seleniumElementsHelper.sendKeys(By.id(SUBJECT_ID.get()), Keys.ENTER.toString());  // Press Enter to add subject
 
         testStep("Selecting Hobbies");
         seleniumElementsHelper.scrollToElement(By.cssSelector("label[for='hobbies-checkbox-1']"));
@@ -192,7 +194,7 @@ public class DemoQATests extends TestBase {
         seleniumElementsHelper.clickElementByJS(By.cssSelector("label[for='hobbies-checkbox-3']"));  // Music
 
         testStep("Uploading Picture");
-        seleniumElementsHelper.sendKeys(By.id("uploadPicture"), "C:\\Users\\dokto\\Desktop\\WP_P_1.jpg");
+        seleniumElementsHelper.sendKeys(By.id(UPLOADPICTURE_ID.get()), System.getProperty("user.dir") + "\\src\\test\\resources\\BUT_WP.webp");
 
         // Adding an explicit wait to ensure picture upload is fully completed
         try {
@@ -220,12 +222,12 @@ public class DemoQATests extends TestBase {
 //        seleniumElementsHelper.clickElementByJS(By.xpath("//div[contains(text(),'Delhi')]"));
 
         testStep("Verifying form submission");
-        seleniumElementsHelper.waitForElementToBeVisible(By.id("example-modal-sizes-title-lg"));
-        assert seleniumElementsHelper.isElementPresent(By.id("example-modal-sizes-title-lg")) : "Form not submitted";
+        seleniumElementsHelper.waitForElementToBeVisible(By.id(FORM_SUBMISSION_ID.get()));
+        assert seleniumElementsHelper.isElementPresent(By.id(FORM_SUBMISSION_ID.get())) : "Form not submitted";
 
         testStep("Verifying submission message");
         String expectedMessage = "Thanks for submitting the form";
-        String actualMessage = seleniumElementsHelper.getElementText(By.id("example-modal-sizes-title-lg"));
+        String actualMessage = seleniumElementsHelper.getElementText(By.id(FORM_SUBMISSION_ID.get()));
         assert actualMessage.contains(expectedMessage) : "Unexpected submission message: " + actualMessage;
 
         testDone("Multi-section form handling test completed");
@@ -237,23 +239,23 @@ public class DemoQATests extends TestBase {
 @Feature("Interactive Table")
 public void testInteractiveTableFunctionality() {
     testStep("Navigating to home page");
-    driver.get("https://demoqa.com");
+    driver.get(HOME_URL.get());
     seleniumElementsHelper.waitForPageLoad();
     testStep("Clicking on 'Elements' tile");
-    seleniumElementsHelper.clickSafely(By.xpath("//h5[text()='Elements']"));
+    seleniumElementsHelper.clickSafely(By.xpath(ELEMENTS_TILE_XPATH.get()));
     seleniumElementsHelper.waitForPageLoad();
     testStep("Clicking on 'Web Tables' section");
-    seleniumElementsHelper.clickSafely(By.xpath("//span[text()='Web Tables']"));
+    seleniumElementsHelper.clickSafely(By.xpath(WEB_TABLES_SECTION_XPATH.get()));
     seleniumElementsHelper.waitForPageLoad();
     testStep("Adding a new record to the table");
-    seleniumElementsHelper.clickSafely(By.id("addNewRecordButton"));
-    seleniumElementsHelper.sendKeys(By.id("firstName"), "Alice");
-    seleniumElementsHelper.sendKeys(By.id("lastName"), "Johnson");
-    seleniumElementsHelper.sendKeys(By.id("userEmail"), "alice.johnson@example.com");
-    seleniumElementsHelper.sendKeys(By.id("age"), "30");
-    seleniumElementsHelper.sendKeys(By.id("salary"), "50000");
-    seleniumElementsHelper.sendKeys(By.id("department"), "Quality Assurance");
-    seleniumElementsHelper.clickSafely(By.id("submit"));
+    seleniumElementsHelper.clickSafely(By.id(ADD_NEW_RECORD_BUTTON_ID.get()));
+    seleniumElementsHelper.sendKeys(By.id(FIRST_NAME_ID.get()), "Alice");
+    seleniumElementsHelper.sendKeys(By.id(LAST_NAME_ID.get()), "Johnson");
+    seleniumElementsHelper.sendKeys(By.id(USER_EMAIL_ID.get()), "alice.johnson@example.com");
+    seleniumElementsHelper.sendKeys(By.id(AGE_ID.get()), "30");
+    seleniumElementsHelper.sendKeys(By.id(SALARY_ID.get()), "50000");
+    seleniumElementsHelper.sendKeys(By.id(DEPARTMENT_ID.get()), "Quality Assurance");
+    seleniumElementsHelper.clickSafely(By.id(BUTTON_SUBMIT_TABLE_ID.get()));
     seleniumElementsHelper.waitForPageLoad();
     testStep("Verifying record addition");
     assert seleniumElementsHelper.isElementPresent(By.xpath("//div[contains(text(), 'Alice')]")) : "Record was not added";
@@ -266,21 +268,21 @@ public void testInteractiveTableFunctionality() {
 @Feature("Dynamic Loads")
 public void testDynamicLoadsHandling() {
     testStep("Navigating to home page");
-    driver.get("https://demoqa.com");
+    driver.get(HOME_URL.get());
     seleniumElementsHelper.waitForPageLoad();
     testStep("Clicking on 'Elements' tile");
-    seleniumElementsHelper.clickSafely(By.xpath("//h5[text()='Elements']"));
+    seleniumElementsHelper.clickSafely(By.xpath(ELEMENTS_TILE_XPATH.get()));
     seleniumElementsHelper.waitForPageLoad();
     testStep("Clicking on 'Dynamic Properties' section");
-    seleniumElementsHelper.scrollToElementAndClick(By.xpath("//span[text()='Dynamic Properties']"));
+    seleniumElementsHelper.scrollToElementAndClick(By.xpath(DYNAMICPROPERTIES_SECTION_XPATH.get()));
 //    seleniumElementsHelper.click(By.xpath("//span[text()='Dynamic Properties']"));
     seleniumElementsHelper.waitForPageLoad();
     testStep("Waiting for dynamically loaded button to appear");
     seleniumElementsHelper.waitForElementToBeClickable(By.id("visibleAfter"));
     testStep("Clicking on the dynamically loaded button");
-    seleniumElementsHelper.clickSafely(By.id("visibleAfter"));
+    seleniumElementsHelper.clickSafely(By.id(VISIBLE_AFTER.get()));
     testStep("Verifying button click");
-    assert seleniumElementsHelper.isElementPresent(By.id("visibleAfter")) : "Dynamically loaded button was not clickable";
+    assert seleniumElementsHelper.isElementPresent(By.id(VISIBLE_AFTER.get())) : "Dynamically loaded button was not clickable";
     testDone("Dynamic loads handling test completed");
 }
 
@@ -290,13 +292,13 @@ public void testDynamicLoadsHandling() {
 @Feature("JavaScript Manipulation")
 public void testAdvancedJavaScriptManipulations() {
     testStep("Navigating to home page");
-    driver.get("https://demoqa.com");
+    driver.get(HOME_URL.get());
     seleniumElementsHelper.waitForPageLoad();
     testStep("Clicking on 'Elements' tile");
-    seleniumElementsHelper.clickSafely(By.xpath("//h5[text()='Elements']"));
+    seleniumElementsHelper.clickSafely(By.xpath(ELEMENTS_TILE_XPATH.get()));
     seleniumElementsHelper.waitForPageLoad();
     testStep("Clicking on 'Buttons' section");
-    seleniumElementsHelper.clickSafely(By.xpath("//span[text()='Buttons']"));
+    seleniumElementsHelper.clickSafely(By.xpath(BUTTONS_SECTION_XPATH.get()));
     seleniumElementsHelper.waitForPageLoad();
     testStep("Using JavaScript to perform double click");
     WebElement button = driver.findElement(By.id("doubleClickBtn"));
@@ -313,7 +315,7 @@ public void testAdvancedJavaScriptManipulations() {
 @Feature("Network Errors")
 public void testNetworkErrorHandling() {
     testStep("Navigating to home page");
-    driver.get("https://demoqa.com");
+    driver.get(HOME_URL.get());
     seleniumElementsHelper.waitForPageLoad();
     testStep("Simulating network error");
     seleniumElementsHelper.executeJavaScript("window.stop();");
@@ -331,7 +333,7 @@ public void testNetworkErrorHandling() {
 @Feature("Session and Cookies")
 public void testSessionAndCookieHandling() {
     testStep("Navigating to home page");
-    driver.get("https://demoqa.com");
+    driver.get(HOME_URL.get());
     seleniumElementsHelper.waitForPageLoad();
     testStep("Setting a session cookie");
     seleniumElementsHelper.executeJavaScript("document.cookie = 'sessionTest=123456; path=/';");

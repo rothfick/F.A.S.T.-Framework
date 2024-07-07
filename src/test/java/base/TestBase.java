@@ -8,6 +8,7 @@ import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.config.HttpClientConfig;
 import io.restassured.specification.RequestSpecification;
+import lombok.NonNull;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -26,7 +27,7 @@ import java.util.*;
 
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;
 
-public class TestBase {
+public class TestBase extends TestWithHelpers{
 
     protected WebDriver driver;
     protected WebDriverWait driverWait;
@@ -148,28 +149,30 @@ public class TestBase {
         testDone(message, true);
     }
 
-    private void setupHelpers() {
+    private void setupHelpers(){
         this.seleniumElementsHelper = new SeleniumElementsHelper(driver, driverWait);
-        initializeHelpers(Arrays.asList(seleniumElementsHelper));
-    }
+        try{
+            allHelpers.putAll(AppHelper.initAppHelpers(seleniumElementsHelper));
+            propertyHelper.loadProperties();
+            injectHelpers(this, allHelpers);
 
-    private void initializeHelpers(List<Object> helpers) {
-        for (Object helper : helpers) {
-            try {
-                allHelpers.putAll(AppHelper.initAppHelpers((SeleniumElementsHelper) helper));
-                injectHelpersInto(helper);
-            } catch (Exception e) {
-                LOG.error("Error initializing helpers: " + e.getMessage(), e);
-            }
+            for(Object helper : allHelpers.values()){
+                injectHelpers(helper, allHelpers);
+            }}catch (Exception ex){
+            LOG.error(ex.getMessage());
         }
     }
 
-    private void injectHelpersInto(Object target) throws IllegalAccessException {
-        for (Field field : target.getClass().getDeclaredFields()) {
-            if (allHelpers.containsKey(field.getType())) {
-                field.setAccessible(true);
-                field.set(target, allHelpers.get(field.getType()));
+    private void injectHelpers(@NonNull Object target, @NonNull Map<Class, Object> helperMap) throws IllegalAccessException {
+        Class clazz = target.getClass();
+        while(clazz!=null){
+            for(Field field : clazz.getDeclaredFields()){
+                if(helperMap.containsKey(field.getType())){
+                    field.setAccessible(true);
+                    field.set(target, helperMap.get(field.getType()));
+                }
             }
+            clazz = clazz.getSuperclass();
         }
     }
 }
