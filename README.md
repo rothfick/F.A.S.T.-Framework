@@ -2,7 +2,7 @@
 # Comprehensive Automation Testing Framework
 
 ## Overview
-This repository houses a robust automation testing framework designed to facilitate front-end and API testing. Utilizing a powerful stack of Java, Selenium, TestNG, Allure, and RestAssured, this framework aims to demonstrate best practices in software testing while showcasing the RithFick proficiency in automation.
+This repository houses a robust automation testing framework designed to facilitate front-end and API testing. Utilizing a powerful stack of Java, Selenium, TestNG, Allure, and RestAssured, this framework aims to demonstrate best practices in software testing while showcasing the RothFick proficiency in automation.
 
 ## Features
 - **Multi-browser Support**: Utilizes Selenium for cross-browser testing, ensuring compatibility across major browsers.
