@@ -4238,3 +4238,47 @@
 2024-07-07 09:29:21 INFO  TestBase:96 - [TEST RESULT]: Session and cookie handling test completed - PASSED
 2024-07-07 09:29:21 INFO  TestBase:47 - Cleaning up after test.
 2024-07-07 09:29:21 INFO  TestBase:52 - Cleanup done.
+2024-07-07 12:08:45 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 12:08:45 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 12:08:46 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 12:08:46 INFO  TestBase:52 - Cleanup done.
+2024-07-07 12:08:46 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 12:08:46 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 12:08:46 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 12:08:46 INFO  TestBase:52 - Cleanup done.
+2024-07-07 12:08:46 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 12:08:46 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 12:08:46 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 12:08:46 INFO  TestBase:52 - Cleanup done.
+2024-07-07 12:08:46 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 12:08:46 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 12:08:47 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 12:08:47 INFO  TestBase:52 - Cleanup done.
+2024-07-07 12:08:47 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 12:08:47 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 12:08:47 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 12:08:47 INFO  TestBase:52 - Cleanup done.
+2024-07-07 12:08:47 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 12:08:47 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 12:08:47 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 12:08:47 INFO  TestBase:52 - Cleanup done.
+2024-07-07 12:08:47 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 12:08:47 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 12:08:47 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 12:08:48 INFO  TestBase:52 - Cleanup done.
+2024-07-07 12:08:48 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 12:08:48 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 12:08:48 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 12:08:48 INFO  TestBase:52 - Cleanup done.
+2024-07-07 12:08:48 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 12:08:48 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 12:08:48 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 12:08:48 INFO  TestBase:52 - Cleanup done.
+2024-07-07 12:08:48 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 12:08:48 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 12:08:48 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 12:08:48 INFO  TestBase:52 - Cleanup done.
+2024-07-07 12:08:48 INFO  TestBase:39 - Setup before the test has just started.
+2024-07-07 12:08:48 WARN  TestBase:72 - Property file 'applicationConfig.properties' not found in the classpath; using default browser: chrome
+2024-07-07 12:08:49 INFO  TestBase:47 - Cleaning up after test.
+2024-07-07 12:08:49 INFO  TestBase:52 - Cleanup done.

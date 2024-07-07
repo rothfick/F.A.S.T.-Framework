@@ -11,11 +11,11 @@
   <description>It is art of testing. Increasing the Skill and Fun together.</description>
 
   <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <aspectj.version>1.9.6</aspectj.version>  <!-- Dodaj tę linię, dostosowując wersję do swoich potrzeb -->
+    <aspectj.version>1.9.6</aspectj.version>  <!-- Zaktualizowana wersja AspectJ kompatybilna z Javą 17 -->
   </properties>
 
   <dependencies>
