@@ -1,3 +1,20 @@
+<!-- README_PRESENTATION_START -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=140&color=0:111827,100:F97316&text=F.A.S.T.%20Framework&fontColor=FFFFFF&fontSize=30&fontAlignY=42&desc=Full-stack%20QA%20automation%20foundation%20for%20UI%20and%20API%20testing&descAlignY=68&descSize=15" alt="F.A.S.T. Framework banner" />
+</p>
+
+<p align="center">
+  <img alt="Java: Automation" src="https://img.shields.io/badge/Java-Automation-F97316?style=for-the-badge" /> <img alt="Selenium: UI Testing" src="https://img.shields.io/badge/Selenium-UI%20Testing-43B02A?style=for-the-badge" /> <img alt="TestNG: Runner" src="https://img.shields.io/badge/TestNG-Runner-0B5CAD?style=for-the-badge" /> <img alt="Allure: Reporting" src="https://img.shields.io/badge/Allure-Reporting-FF6A00?style=for-the-badge" /> <img alt="Scope: UI + API" src="https://img.shields.io/badge/Scope-UI%20%2B%20API-111827?style=for-the-badge" />
+</p>
+
+<table>
+  <tr><td><strong>Role signal</strong></td><td>Java QA Automation framework ownership</td></tr>
+<tr><td><strong>What to inspect</strong></td><td><code>BrowserManager</code>, base test layer, helpers, Allure setup</td></tr>
+<tr><td><strong>Best for</strong></td><td>QA Automation, SDET, Java test framework roles</td></tr>
+</table>
+
+<!-- README_PRESENTATION_END -->
+
 # F.A.S.T. Framework
 
 Full Stack Automation Software Tester framework for UI and API-oriented test automation.
